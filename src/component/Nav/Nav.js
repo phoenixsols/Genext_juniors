@@ -18,22 +18,22 @@ export default function Nav(){
               </Link>
           </li>
           <li>
-            <Link to={'about'}>About</Link>
+            <Link to={'/about'}>About</Link>
           </li>
           <li>
-            <Link to={'courses'}>Courses</Link>
+            <Link to={'/courses'}>Courses</Link>
           </li>
           <li>
-            <Link to={'trainers'}>Trainers</Link>
+            <Link to={'/trainers'}>Trainers</Link>
           </li>
           <li>
-            <Link to={'events'}>Events</Link>
+            <Link to={'/events'}>Events</Link>
           </li>
           <li>
-            <Link to={'pricing'}>Pricing</Link>
+            <Link to={'/pricing'}>Pricing</Link>
           </li>
           <li>
-            <Link to={'contact'}>Contact</Link>
+            <Link to={'/contact'}>Contact</Link>
           </li>
         </ul>
         <i className="bi bi-list mobile-nav-toggle" />
