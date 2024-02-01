@@ -9,32 +9,17 @@ export default function Message(){
           data-aos="fade-left"
           data-aos-delay={100}
         >
-          <img src="assets/img/about.jpg" className="img-fluid" alt="" />
+          <img src="assets/img/Devendrasir.jpg" className="img-fluid" alt="" />
         </div>
         <div className="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
           <h3>
             MESSAGE FROM DIRECTOR
           </h3>
           <p className="fst-italic">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Don't Study for passing in exams,study for passing in life.
           </p>
-          <ul>
-            <li>
-              <i className="bi bi-check-circle" /> Ullamco laboris nisi ut
-              aliquip ex ea commodo consequat.
-            </li>
-            <li>
-              <i className="bi bi-check-circle" /> Duis aute irure dolor in
-              reprehenderit in voluptate velit.
-            </li>
-            <li>
-              <i className="bi bi-check-circle" /> Ullamco laboris nisi ut
-              aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate trideta storacalaperda mastiro dolore
-              eu fugiat nulla pariatur.
-            </li>
-          </ul>
+          
+           
           <p>
           Dear Students and Parents,
 This gives me immense happiness to announce that with wholehearted co-operation of teaching and administrative staff, we have successfully entered the 21st year under the banner of GENEXT Institute
@@ -47,7 +32,7 @@ When we take a glimpse at yesteryears, we find that it was very comfortable for 
   {/* End About Section */}
 
   <>
-  <section id="counts" className="counts section-bg">
+  {/* <section id="counts" className="counts section-bg">
     <div className="container">
       <div className="row counters">
         <div className="col-lg-3 col-6 text-center">
@@ -88,7 +73,7 @@ When we take a glimpse at yesteryears, we find that it was very comfortable for 
         </div>
       </div>
     </div>
-  </section>
+  </section> */}
   {/* End Counts Section */}
 </>
 
