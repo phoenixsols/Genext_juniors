@@ -10,7 +10,7 @@ export default function Languages(){
           <div className="icon-box">
             <i className="ri-store-line" style={{ color: "#ffbb2c" }} />
             <h3>
-              <Link to={'/course_details'}>Scratch</Link>
+              <Link to={'/scratch'}>Scratch</Link>
             </h3>
           </div>
         </div>

@@ -1,9 +1,9 @@
 import Footer from "../Footer/Footer";
 import Nav from "../Nav/Nav";
 
-export default function Course_details(){
+export default function Scratch(){
     return<>
-    <Nav/>
+      <Nav/>
     <div className="breadcrumbs" data-aos="fade-in">
   <div className="container">
     <h2>Scratch</h2>
@@ -14,9 +14,9 @@ export default function Course_details(){
     </p>
   </div>
     </div>
-    <>
-  {/* ======= Cource Details Section ======= */}
-  <section id="course-details" className="course-details">
+
+
+    <section id="course-details" className="course-details">
     <div className="container" data-aos="fade-up">
       <div className="row">
         <div className="col-lg-8">
@@ -25,18 +25,21 @@ export default function Course_details(){
             className="img-fluid"
             alt=""
           />
-          <h3>Et enim incidunt fuga tempora</h3>
+          <h3>About Scratch</h3>
           <p>
-            Qui et explicabo voluptatem et ab qui vero et voluptas. Sint
-            voluptates temporibus quam autem. Atque nostrum voluptatum
-            laudantium a doloremque enim et ut dicta. Nostrum ducimus est iure
-            minima totam doloribus nisi ullam deserunt. Corporis aut officiis
-            sit nihil est. Labore aut sapiente aperiam. Qui voluptas qui vero
-            ipsum ea voluptatem. Omnis et est. Voluptatem officia voluptatem
-            adipisci et iusto provident doloremque consequatur. Quia et porro
-            est. Et qui corrupti laudantium ipsa. Eum quasi saepe aperiam qui
-            delectus quaerat in. Vitae mollitia ipsa quam. Ipsa aut qui numquam
-            eum iste est dolorum. Rem voluptas ut sit ut.
+          Scratch is the world's largest coding community for children and 
+          a coding language with a simple visual interface that allows young people
+          to create digital stories, games, and animations. Scratch is designed,
+          developed, and moderated by the Scratch Foundation, a nonprofit
+          organization. Scratch is an event-driven visual programming language developed by MIT.
+           In this platform, we do not need to write code to perform operations,
+            things are done just by drag and drop, just like visual basic. It is the best platform
+             to start basic programming by creating attractive animation effects.
+              There are so many features available in Scratch, such as video games,
+               animations, stories, sound, events, etc. It is a free platform created by
+                the Lifelong Kindergarten group at MIT in the Media lab. It is developed
+                 in ActionScript and JavaScript and is compatible with any operating system. 
+                 It has been translated into more than 70 languages and used in most parts of the world. 
           </p>
         </div>
         <div className="col-lg-4">
@@ -62,10 +65,8 @@ export default function Course_details(){
       </div>
     </div>
   </section>
-  {/* End Cource Details Section */}
-</>
 
-<section id="cource-details-tabs" className="cource-details-tabs">
+  <section id="cource-details-tabs" className="cource-details-tabs">
   <div className="container" data-aos="fade-up">
     <div className="row">
       <div className="col-lg-3">
@@ -235,9 +236,10 @@ export default function Course_details(){
     </div>
   </div>
 </section>
+  <Footer/>
 
 
-    <Footer/>
-    
+
+
     </>
 }

@@ -8,7 +8,6 @@ import Courses from './component/Courses/Courses';
 import Instructors from './component/Instructors/Instructors';
 import Events from './component/Events/Events';
 import Pricing from './component/Pricing/Pricing';
-import Course_details from './component/Courses/Course_details';
 import Python from './component/Courses/Python';
 import Robotics from './component/Courses/Robotics';
 import Canva from './component/Courses/Canva';
@@ -20,6 +19,7 @@ import Coding from './component/Courses/Coding';
 import Info from './component/Courses/Info';
 import Procreate from './component/Courses/Procreate';
 import Vedic from './component/Courses/Vedic';
+import Scratch from './component/Courses/Scratch';
 
 
 function App() {
@@ -32,7 +32,7 @@ function App() {
    <Route path='/events' element={<Events/>}></Route>
    <Route path='/pricing' element={<Pricing/>}></Route>
    <Route path='/contact' element={<Contact/>}></Route>
-   <Route path='/course_details' element={<Course_details/>}></Route>
+   <Route path='/scratch' element={<Scratch/>}></Route>
    <Route path='/python' element={<Python/>}></Route>
    <Route path='/robotics' element={<Robotics/>}></Route>
    <Route path='/canva' element={<Canva/>}></Route>
