@@ -1,9 +1,9 @@
 import Footer from "../Footer/Footer";
 import Nav from "../Nav/Nav";
 
-export default function Course_details(){
+export default function Scratch(){
     return<>
-    <Nav/>
+      <Nav/>
     <div className="breadcrumbs" data-aos="fade-in">
   <div className="container">
     <h2>Scratch</h2>
@@ -13,9 +13,9 @@ Scratch is a widely-used visual programming language and online community develo
     </p>
   </div>
     </div>
-    <>
-  {/* ======= Cource Details Section ======= */}
-  <section id="course-details" className="course-details">
+
+
+    <section id="course-details" className="course-details">
     <div className="container" data-aos="fade-up">
       <div className="row">
         <div className="col-lg-8">
@@ -55,10 +55,8 @@ Scratch is a widely-used visual programming language and online community develo
       </div>
     </div>
   </section>
-  {/* End Cource Details Section */}
-</>
 
-<section id="cource-details-tabs" className="cource-details-tabs">
+  <section id="cource-details-tabs" className="cource-details-tabs">
   <div className="container" data-aos="fade-up">
     <div className="row">
       <div className="col-lg-3">
@@ -222,9 +220,10 @@ Scratch is a widely-used visual programming language and online community develo
     </div>
   </div>
 </section>
+  <Footer/>
 
 
-    <Footer/>
-    
+
+
     </>
 }

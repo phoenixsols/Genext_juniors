@@ -1,3 +1,5 @@
+import Event_blog from "../Events/Event_blog";
+import Events from "../Events/Events";
 import Footer from "../Footer/Footer";
 import Nav from "../Nav/Nav";
 import Corosale from "./Corosale";
@@ -16,6 +18,7 @@ export default function Home(){
     <Languages/>
     <Popular_courses/>
     <Trainer/>
+    <Event_blog/>
     <Footer/>
     </>
 }

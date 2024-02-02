@@ -1,5 +1,6 @@
 import Footer from "../Footer/Footer";
 import Nav from "../Nav/Nav";
+import Event_blog from "./Event_blog";
 
 export default function Events(){
     return<>
@@ -17,42 +18,63 @@ export default function Events(){
     </p>
   </div>
 </div>
-
-    <section id="events" className="events">
+<Event_blog/>
+<section id="events" className="events">
   <div className="container" data-aos="fade-up">
     <div className="row">
-      <div className="col-md-6 d-flex align-items-stretch">
+      <div className="col-md-4 d-flex align-items-stretch">
         <div className="card">
-          <div className="card-img">
-            <img src="assets/img/events-1.jpg" alt="..." />
+          <div className="card-img" style={{height:"250px"}}>
+            <img src="assets/img/26_jan2.jpeg" alt="..." className="h-100 w-100" />
           </div>
           <div className="card-body">
             <h5 className="card-title">
-              <a href="">Introduction to webdesign</a>
+              <a href="">Independence Day</a>
             </h5>
             <p className="fst-italic text-center">
-              Sunday, September 26th at 7:00 pm
+              Saturday, August 15
             </p>
             <p className="card-text">
-              Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod
-              tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-              commodo consequat
+            We celebrate independence day contribute to the growth and progress of our beloved India.
+             Their stories of courage and sacrifice inspire us to be better citizens and to
+                stand up for justice and equality.
             </p>
           </div>
         </div>
       </div>
-      <div className="col-md-6 d-flex align-items-stretch">
+     
+      <div className="col-md-4 d-flex align-items-stretch">
         <div className="card">
-          <div className="card-img">
-            <img src="assets/img/events-2.jpg" alt="..." />
+          <div className="card-img" style={{height:"250px"}}>
+            <img src="assets/img/Navratri.jpeg" alt="..." className="h-100 w-100" />
           </div>
           <div className="card-body">
             <h5 className="card-title">
-              <a href="">Marketing Strategies</a>
+              <a href="">Navratri</a>
             </h5>
             <p className="fst-italic text-center">
-              Sunday, November 15th at 7:00 pm
+            Friday, October 12
+            </p>
+            <p className="card-text">
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
+              inventore veritatis et quasi architecto beatae vitae dicta sunt
+              explicabo
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="col-md-4 d-flex align-items-stretch">
+        <div className="card">
+          <div className="card-img" style={{height:"250px"}}>
+            <img src="assets/img/Teachers_day2.jpeg" alt="..."  />
+          </div>
+          <div className="card-body">
+            <h5 className="card-title">
+              <a href="">Teachers Day</a>
+            </h5>
+            <p className="fst-italic text-center">
+              Thursday, September 5
             </p>
             <p className="card-text">
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -66,6 +88,79 @@ export default function Events(){
     </div>
   </div>
 </section>
+
+<section id="events" className="events">
+  <div className="container" data-aos="fade-up">
+    <div className="row">
+      <div className="col-md-4 d-flex align-items-stretch">
+        <div className="card">
+          <div className="card-img" style={{height:"250px"}}>
+            <img src="assets/img/Ganesh.jpeg" alt="..." className="h-100 w-100" />
+          </div>
+          <div className="card-body">
+            <h5 className="card-title">
+              <a href="">Ganesh Chaturthi</a>
+            </h5>
+            <p className="fst-italic text-center">
+              Monday, August 21
+            </p>
+            <p className="card-text">
+            Ganesh Chaturthi stands out as one of the most anticipated and vibrant festivals in India.
+            
+            </p>
+          </div>
+        </div>
+      </div>
+     
+      <div className="col-md-4 d-flex align-items-stretch">
+        <div className="card">
+          <div className="card-img" style={{height:"250px"}}>
+            <img src="assets/img/Games.jpeg" alt="..." className="h-100 w-100" />
+          </div>
+          <div className="card-body">
+            <h5 className="card-title">
+              <a href="">Sports Activities</a>
+            </h5>
+            <p className="fst-italic text-center">
+            Friday, February 16 
+            </p>
+            <p className="card-text">
+              Study is important but Sports activities are also important fo students.
+              This improves team-building abilities as well as decreases stress.
+            Sport pertains to any form of competitive physical activity
+             or game that aims to use, maintain or improve our physical ability.
+             
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="col-md-4 d-flex align-items-stretch">
+        <div className="card">
+          <div className="card-img" style={{height:"250px"}}>
+            <img src="assets/img/Teachers_day2.jpeg" alt="..."  />
+          </div>
+          <div className="card-body">
+            <h5 className="card-title">
+              <a href="">Seminars</a>
+            </h5>
+            <p className="fst-italic text-center">
+              Thursday, September 25
+            </p>
+            <p className="card-text">
+            Students become more confident and independent.
+             Attending a seminar has numerous benefits, including improving
+              communication skills, gaining expert knowledge, networking with
+               others and renewing motivation and confidence.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
 <Footer/>
     
     
