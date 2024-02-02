@@ -9,18 +9,18 @@ export default function Message(){
           data-aos="fade-left"
           data-aos-delay={100}
         >
-          <img src="assets/img/Devendrasir.jpg" className="img-fluid" alt="" />
+          <img src="assets/img/Devendrasir.jpg" className="img-fluid w-100 h-75" alt="" />
         </div>
         <div className="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
           <h3>
             MESSAGE FROM DIRECTOR
           </h3>
-          <p className="fst-italic">
-            Don't Study for passing in exams,study for passing in life.
+          <p className="fst-italic pt-3">
+           <b>" Don't Study for passing in exams,study for passing in life. " </b>
           </p>
           
            
-          <p>
+          <p className="lign_hight">
           Dear Students and Parents,
 This gives me immense happiness to announce that with wholehearted co-operation of teaching and administrative staff, we have successfully entered the 21st year under the banner of GENEXT Institute
 When we take a glimpse at yesteryears, we find that it was very comfortable for the students back then to choose their career options. However, today the scenario is quite different. Mere desire does not work in today’s cut-throat competitive environment. You have to be aware of the latest examination patterns, put efforts in the appropriate direction, and continuously evaluate yourself against others to be sure to succeed.

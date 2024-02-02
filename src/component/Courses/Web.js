@@ -6,11 +6,9 @@ export default function Web(){
      <Nav/>
     <div className="breadcrumbs" data-aos="fade-in">
   <div className="container">
-    <h2>Web Designing</h2>
+    <h2>Web Designing & WEB DESIGNING & DEVELOPMENT</h2>
     <p>
-      Est dolorum ut non facere possimus quibusdam eligendi voluptatem. Quia id
-      aut similique quia voluptas sit quaerat debitis. Rerum omnis ipsam aperiam
-      consequatur laboriosam nemo harum praesentium.{" "}
+    Our web development training are most inclusive and impactful as it include web all based services{" "}
     </p>
   </div>
     </div>
@@ -21,22 +19,15 @@ export default function Web(){
       <div className="row">
         <div className="col-lg-8">
           <img
-            src="assets/img/course-details.jpg"
+            src="assets/img/webdesign.jpg"
             className="img-fluid"
             alt=""
           />
-          <h3>Et enim incidunt fuga tempora</h3>
+          <h3>WEB DESIGNING & DEVELOPMENT</h3>
           <p>
-            Qui et explicabo voluptatem et ab qui vero et voluptas. Sint
-            voluptates temporibus quam autem. Atque nostrum voluptatum
-            laudantium a doloremque enim et ut dicta. Nostrum ducimus est iure
-            minima totam doloribus nisi ullam deserunt. Corporis aut officiis
-            sit nihil est. Labore aut sapiente aperiam. Qui voluptas qui vero
-            ipsum ea voluptatem. Omnis et est. Voluptatem officia voluptatem
-            adipisci et iusto provident doloremque consequatur. Quia et porro
-            est. Et qui corrupti laudantium ipsa. Eum quasi saepe aperiam qui
-            delectus quaerat in. Vitae mollitia ipsa quam. Ipsa aut qui numquam
-            eum iste est dolorum. Rem voluptas ut sit ut.
+          Our web development training are most inclusive and impactful as it include web all based services
+
+The web development training includes web design, web content development, client-side/server-side scripting & network security configuration, among other tasks. Due to Blog & Open sources, web technologies like HTML, CSS, WordPress, PHP & Web development more attracts the youngest.
           </p>
         </div>
         <div className="col-lg-4">
@@ -74,27 +65,27 @@ export default function Web(){
               data-bs-toggle="tab"
               href="#tab-1"
             >
-              Modi sit est
+             Designing Your Dream Website
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" data-bs-toggle="tab" href="#tab-2">
-              Unde praesentium sed
+            Coding Your Creations
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" data-bs-toggle="tab" href="#tab-3">
-              Pariatur explicabo vel
+            Explore Content Management Systems
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" data-bs-toggle="tab" href="#tab-4">
-              Nostrum qui quasi
+            Share Your Masterpiece with the World
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" data-bs-toggle="tab" href="#tab-5">
-              Iusto ut expedita aut
+            Learn and Grow
             </a>
           </li>
         </ul>
@@ -104,18 +95,17 @@ export default function Web(){
           <div className="tab-pane active show" id="tab-1">
             <div className="row">
               <div className="col-lg-8 details order-2 order-lg-1">
-                <h3>Architecto ut aperiam autem id</h3>
+                <h3>Designing Your Dream Website</h3>
                 <p className="fst-italic">
-                  Qui laudantium consequatur laborum sit qui ad sapiente dila
-                  parde sonata raqer a videna mareta paulona marka
+                Web designing is all about creating beautiful and user-friendly websites that people love to visit. From choosing colors and fonts to designing layouts and graphics, you'll have the chance to let your imagination run wild and bring your ideas to life. Whether you prefer sleek and modern designs or colorful and whimsical themes, the sky's the limit when it comes to designing your dream website.
                 </p>
-                <p>
+                {/* <p>
                   Et nobis maiores eius. Voluptatibus ut enim blanditiis atque
                   harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut
                   molestiae aut qui. Est repellat minima eveniet eius et quis
                   magni nihil. Consequatur dolorem quaerat quos qui similique
                   accusamus nostrum rem vero
-                </p>
+                </p> */}
               </div>
               <div className="col-lg-4 text-center order-1 order-lg-2">
                 <img
@@ -129,18 +119,11 @@ export default function Web(){
           <div className="tab-pane" id="tab-2">
             <div className="row">
               <div className="col-lg-8 details order-2 order-lg-1">
-                <h3>Et blanditiis nemo veritatis excepturi</h3>
+                <h3>Coding Your Creations</h3>
                 <p className="fst-italic">
-                  Qui laudantium consequatur laborum sit qui ad sapiente dila
-                  parde sonata raqer a videna mareta paulona marka
+                Once you have your design in mind, it's time to bring it to life with coding! Web development is the process of writing code that tells the web browser how to display your website. Don't worry if you're new to coding – there are plenty of beginner-friendly languages and tools to help you get started. HTML and CSS are two essential languages for web development, and they're easy to learn with lots of fun tutorials and interactive resources available online.
                 </p>
-                <p>
-                  Ea ipsum voluptatem consequatur quis est. Illum error ullam
-                  omnis quia et reiciendis sunt sunt est. Non aliquid
-                  repellendus itaque accusamus eius et velit ipsa voluptates.
-                  Optio nesciunt eaque beatae accusamus lerode pakto madirna
-                  desera vafle de nideran pal
-                </p>
+              
               </div>
               <div className="col-lg-4 text-center order-1 order-lg-2">
                 <img
@@ -154,19 +137,11 @@ export default function Web(){
           <div className="tab-pane" id="tab-3">
             <div className="row">
               <div className="col-lg-8 details order-2 order-lg-1">
-                <h3>Impedit facilis occaecati odio neque aperiam sit</h3>
+                <h3>Explore Content Management Systems</h3>
                 <p className="fst-italic">
-                  Eos voluptatibus quo. Odio similique illum id quidem non enim
-                  fuga. Qui natus non sunt dicta dolor et. In asperiores velit
-                  quaerat perferendis aut
+                As you become more experienced in web development, you may want to explore content management systems (CMS) like WordPress or Wix. These platforms provide pre-built templates and tools to help you create and manage your website without having to write code from scratch. With a CMS, you can focus on designing and customizing your website's look and feel, while the platform takes care of the technical details behind the scenes.
                 </p>
-                <p>
-                  Iure officiis odit rerum. Harum sequi eum illum corrupti culpa
-                  veritatis quisquam. Neque necessitatibus illo rerum eum ut.
-                  Commodi ipsam minima molestiae sed laboriosam a iste odio.
-                  Earum odit nesciunt fugiat sit ullam. Soluta et harum
-                  voluptatem optio quae
-                </p>
+                
               </div>
               <div className="col-lg-4 text-center order-1 order-lg-2">
                 <img
@@ -181,20 +156,12 @@ export default function Web(){
             <div className="row">
               <div className="col-lg-8 details order-2 order-lg-1">
                 <h3>
-                  Fuga dolores inventore laboriosam ut est accusamus laboriosam
-                  dolore
+                Share Your Masterpiece with the World
                 </h3>
                 <p className="fst-italic">
-                  Totam aperiam accusamus. Repellat consequuntur iure voluptas
-                  iure porro quis delectus
+                Once your website is complete, it's time to share it with the world! There are plenty of options for publishing your website online, from free hosting platforms like GitHub Pages to paid hosting services like Bluehost or SiteGround. With just a few clicks, you can make your website accessible to anyone with an internet connection, allowing you to showcase your work and connect with people from all over the globe.
                 </p>
-                <p>
-                  Eaque consequuntur consequuntur libero expedita in voluptas.
-                  Nostrum ipsam necessitatibus aliquam fugiat debitis quis
-                  velit. Eum ex maxime error in consequatur corporis atque.
-                  Eligendi asperiores sed qui veritatis aperiam quia a laborum
-                  inventore
-                </p>
+          
               </div>
               <div className="col-lg-4 text-center order-1 order-lg-2">
                 <img
@@ -208,16 +175,11 @@ export default function Web(){
           <div className="tab-pane" id="tab-5">
             <div className="row">
               <div className="col-lg-8 details order-2 order-lg-1">
-                <h3>Est eveniet ipsam sindera pad rone matrelat sando reda</h3>
+                <h3>Learn and Grow</h3>
                 <p className="fst-italic">
-                  Omnis blanditiis saepe eos autem qui sunt debitis porro quia.
+                Web designing and development is a journey of continuous learning and growth. As you build and publish your own websites, you'll gain valuable skills in design, coding, problem-solving, and project management. Don't be afraid to experiment, make mistakes, and ask for help along the way – that's how you'll become a confident and skilled web designer and developer!
                 </p>
-                <p>
-                  Exercitationem nostrum omnis. Ut reiciendis repudiandae minus.
-                  Omnis recusandae ut non quam ut quod eius qui. Ipsum quia odit
-                  vero atque qui quibusdam amet. Occaecati sed est sint aut
-                  vitae molestiae voluptate vel
-                </p>
+              
               </div>
               <div className="col-lg-4 text-center order-1 order-lg-2">
                 <img

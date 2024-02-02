@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Footer(){
     return<>
     <>
@@ -7,16 +9,17 @@ export default function Footer(){
       <div className="container">
         <div className="row">
           <div className="col-lg-3 col-md-6 footer-contact">
-            <h3>GENEXT</h3>
+            <h3>GENEXT JUNIORS</h3>
+         
             <p>
-              A108 Adam Street <br />
-              New York, NY 535022
+            Kandhari Plaza, <br /> 6, Opposite Annapurna Temple, <br /> 
+Sudama Nagar, Indore, <br /> Madhya Pradesh 452009
               <br />
-              United States <br />
+        
               <br />
-              <strong>Phone:</strong> +1 5589 55488 55
+              <strong>Phone:</strong> +91 98930 78853
               <br />
-              <strong>Email:</strong> info@example.com
+              <strong>Email:</strong> info@genextjuniors.com
               <br />
             </p>
           </div>
@@ -24,21 +27,24 @@ export default function Footer(){
             <h4>Useful Links</h4>
             <ul>
               <li>
-                <i className="bx bx-chevron-right" /> <a href="#">Home</a>
+                <i className="bx bx-chevron-right" /> <Link to={'/'}>Home</Link>
               </li>
               <li>
-                <i className="bx bx-chevron-right" /> <a href="#">About us</a>
+                <i className="bx bx-chevron-right" /> <Link to={'/about'}>About us</Link>
               </li>
               <li>
-                <i className="bx bx-chevron-right" /> <a href="#">Services</a>
+                <i className="bx bx-chevron-right" /> <Link to={'/courses'}>Courses</Link>
+              </li>
+              <li>
+                <i className="bx bx-chevron-right" /> <Link to={'/trainers'}>Trainers</Link>
               </li>
               <li>
                 <i className="bx bx-chevron-right" />{" "}
-                <a href="#">Terms of service</a>
+                <Link to={'/event'}>Events</Link>
               </li>
               <li>
                 <i className="bx bx-chevron-right" />{" "}
-                <a href="#">Privacy policy</a>
+                <Link to={'/contact'}>Contact</Link>
               </li>
             </ul>
           </div>
@@ -46,55 +52,63 @@ export default function Footer(){
             <h4>Our Services</h4>
             <ul>
               <li>
-                <i className="bx bx-chevron-right" /> <a href="#">Web Design</a>
+                <i className="bx bx-chevron-right" /> <Link to={'/web'}>Web Design</Link>
               </li>
               <li>
                 <i className="bx bx-chevron-right" />{" "}
-                <a href="#">Web Development</a>
+                <Link to={'/robotics'}>AI & Robotics</Link>
               </li>
               <li>
                 <i className="bx bx-chevron-right" />{" "}
-                <a href="#">Product Management</a>
+                <Link to={'/ethical_hacking'}>Ethical Hacking</Link>
               </li>
               <li>
-                <i className="bx bx-chevron-right" /> <a href="#">Marketing</a>
+                <i className="bx bx-chevron-right" /> <Link to={'/game'}>Game Development</Link>
               </li>
               <li>
                 <i className="bx bx-chevron-right" />{" "}
-                <a href="#">Graphic Design</a>
+                <Link to={'/scratch'}>Scratch</Link>
+              </li>
+              <li>
+                <i className="bx bx-chevron-right" />{" "}
+                <Link to={'/info'}>Info Technology</Link>
               </li>
             </ul>
           </div>
           <div className="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Join Our Newsletter</h4>
+            <h4>Branch Office</h4>
             <p>
-              Tamen quem nulla quae legam multos aute sint culpa legam noster
-              magna
+              <ul>
+                <li>
+                577, Gold plaza opp treasure island mall M G road, Indore, M.P. Ph: 920-2220-930, 989-3435-788
+                </li>
+                <br />
+                <li>
+              B-24 ,Scheme no.71 Behind Ranjeet Hanuman Temple, Indore, M.P. Mob: 9893078853, 8871856277
+              </li>
+              <br />
+              <li>
+              117 Pragati Nagar, rajendra nagar, Opp Bhagat Singh Garden Ph: 920-2220-930, 989-3435-788
+              </li>
+              <br />
+              <li>
+                124-A, Silicon City, Near Club House, Row, Indore Mob: 9893078853 , Mob: 9202220930
+              </li>
+            </ul>
             </p>
-            <form action="" method="post">
-              <input type="email" name="email" />
-              <input type="submit" defaultValue="Subscribe" />
-            </form>
+         
           </div>
         </div>
       </div>
     </div>
     <div className="container d-md-flex py-4">
       <div className="me-md-auto text-center text-md-start">
-        <div className="copyright">
-          © Copyright{" "}
-          <strong>
-            <span>Mentor</span>
-          </strong>
-          . All Rights Reserved
-        </div>
-        <div className="credits">
-          {/* All the links in the footer should remain intact. */}
-          {/* You can delete the links only if you purchased the pro version. */}
-          {/* Licensing information: https://bootstrapmade.com/license/ */}
-          {/* Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/ */}
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-        </div>
+   
+       
+         
+          © All right reserved by genextcomputer.com
+      
+     
       </div>
       <div className="social-links text-center text-md-right pt-3 pt-md-0">
         <a href="#" className="twitter">

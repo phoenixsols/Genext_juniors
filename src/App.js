@@ -45,10 +45,6 @@ function App() {
    <Route path='/procreate' element={<Procreate/>}></Route>
    <Route path='/vedic' element={<Vedic/>}></Route>
 
-
-
-
-
    </Routes>
     
   );

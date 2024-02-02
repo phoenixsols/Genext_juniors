@@ -8,9 +8,8 @@ export default function Course_details(){
   <div className="container">
     <h2>Scratch</h2>
     <p>
-      Est dolorum ut non facere possimus quibusdam eligendi voluptatem. Quia id
-      aut similique quia voluptas sit quaerat debitis. Rerum omnis ipsam aperiam
-      consequatur laboriosam nemo harum praesentium.{" "}
+     
+Scratch is a widely-used visual programming language and online community developed by the Lifelong Kindergarten Group at the MIT Media Lab.{" "}
     </p>
   </div>
     </div>
@@ -21,22 +20,16 @@ export default function Course_details(){
       <div className="row">
         <div className="col-lg-8">
           <img
-            src="assets/img/course-details.jpg"
+            src="assets/img/scratch.png"
             className="img-fluid"
             alt=""
           />
-          <h3>Et enim incidunt fuga tempora</h3>
+          <h3>Visual Programming Environment</h3>
           <p>
-            Qui et explicabo voluptatem et ab qui vero et voluptas. Sint
-            voluptates temporibus quam autem. Atque nostrum voluptatum
-            laudantium a doloremque enim et ut dicta. Nostrum ducimus est iure
-            minima totam doloribus nisi ullam deserunt. Corporis aut officiis
-            sit nihil est. Labore aut sapiente aperiam. Qui voluptas qui vero
-            ipsum ea voluptatem. Omnis et est. Voluptatem officia voluptatem
-            adipisci et iusto provident doloremque consequatur. Quia et porro
-            est. Et qui corrupti laudantium ipsa. Eum quasi saepe aperiam qui
-            delectus quaerat in. Vitae mollitia ipsa quam. Ipsa aut qui numquam
-            eum iste est dolorum. Rem voluptas ut sit ut.
+
+          Scratch provides a block-based interface where users can drag and drop code blocks to create scripts. This visual approach makes it easy for beginners to understand programming concepts like loops, conditions, and variables without worrying about syntax errors.
+          
+Scratch is a widely-used visual programming language and online community developed by the Lifelong Kindergarten Group at the MIT Media Lab. It's designed to help beginners, particularly children, learn the basics of coding in a fun and interactive way. Here's some key information about Scratch game development software:
           </p>
         </div>
         <div className="col-lg-4">
@@ -76,27 +69,27 @@ export default function Course_details(){
               data-bs-toggle="tab"
               href="#tab-1"
             >
-              Modi sit est
+             Designed for Beginners
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" data-bs-toggle="tab" href="#tab-2">
-              Unde praesentium sed
+            Online Community
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" data-bs-toggle="tab" href="#tab-3">
-              Pariatur explicabo vel
+            Multimedia Integration
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" data-bs-toggle="tab" href="#tab-4">
-              Nostrum qui quasi
+            Cross-Platform Compatibility
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" data-bs-toggle="tab" href="#tab-5">
-              Iusto ut expedita aut
+            Encourages Creativity and Problem-Solving
             </a>
           </li>
         </ul>
@@ -106,18 +99,17 @@ export default function Course_details(){
           <div className="tab-pane active show" id="tab-1">
             <div className="row">
               <div className="col-lg-8 details order-2 order-lg-1">
-                <h3>Architecto ut aperiam autem id</h3>
+                <h3>Designed for Beginners</h3>
                 <p className="fst-italic">
-                  Qui laudantium consequatur laborum sit qui ad sapiente dila
-                  parde sonata raqer a videna mareta paulona marka
+                Scratch is specifically designed for beginners with little to no programming experience. Its intuitive interface and colorful blocks make it appealing and accessible to users of all ages.
                 </p>
-                <p>
+                {/* <p>
                   Et nobis maiores eius. Voluptatibus ut enim blanditiis atque
                   harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut
                   molestiae aut qui. Est repellat minima eveniet eius et quis
                   magni nihil. Consequatur dolorem quaerat quos qui similique
                   accusamus nostrum rem vero
-                </p>
+                </p> */}
               </div>
               <div className="col-lg-4 text-center order-1 order-lg-2">
                 <img
@@ -131,18 +123,17 @@ export default function Course_details(){
           <div className="tab-pane" id="tab-2">
             <div className="row">
               <div className="col-lg-8 details order-2 order-lg-1">
-                <h3>Et blanditiis nemo veritatis excepturi</h3>
+                <h3>Online Community</h3>
                 <p className="fst-italic">
-                  Qui laudantium consequatur laborum sit qui ad sapiente dila
-                  parde sonata raqer a videna mareta paulona marka
+                Scratch has a vibrant online community where users can share their projects, collaborate with others, and get feedback on their creations. This community aspect fosters creativity and encourages users to learn from each other.
                 </p>
-                <p>
+                {/* <p>
                   Ea ipsum voluptatem consequatur quis est. Illum error ullam
                   omnis quia et reiciendis sunt sunt est. Non aliquid
                   repellendus itaque accusamus eius et velit ipsa voluptates.
                   Optio nesciunt eaque beatae accusamus lerode pakto madirna
                   desera vafle de nideran pal
-                </p>
+                </p> */}
               </div>
               <div className="col-lg-4 text-center order-1 order-lg-2">
                 <img
@@ -156,19 +147,17 @@ export default function Course_details(){
           <div className="tab-pane" id="tab-3">
             <div className="row">
               <div className="col-lg-8 details order-2 order-lg-1">
-                <h3>Impedit facilis occaecati odio neque aperiam sit</h3>
+                <h3>Multimedia Integration</h3>
                 <p className="fst-italic">
-                  Eos voluptatibus quo. Odio similique illum id quidem non enim
-                  fuga. Qui natus non sunt dicta dolor et. In asperiores velit
-                  quaerat perferendis aut
+                Users can incorporate various multimedia elements into their Scratch projects, including graphics, sounds, and animations. This allows for the creation of dynamic and engaging games and interactive experiences.
                 </p>
-                <p>
+                {/* <p>
                   Iure officiis odit rerum. Harum sequi eum illum corrupti culpa
                   veritatis quisquam. Neque necessitatibus illo rerum eum ut.
                   Commodi ipsam minima molestiae sed laboriosam a iste odio.
                   Earum odit nesciunt fugiat sit ullam. Soluta et harum
                   voluptatem optio quae
-                </p>
+                </p> */}
               </div>
               <div className="col-lg-4 text-center order-1 order-lg-2">
                 <img
@@ -183,20 +172,18 @@ export default function Course_details(){
             <div className="row">
               <div className="col-lg-8 details order-2 order-lg-1">
                 <h3>
-                  Fuga dolores inventore laboriosam ut est accusamus laboriosam
-                  dolore
+                Cross-Platform Compatibility
                 </h3>
                 <p className="fst-italic">
-                  Totam aperiam accusamus. Repellat consequuntur iure voluptas
-                  iure porro quis delectus
+                Scratch is available as both a web-based application and a downloadable offline editor, making it accessible across different devices and operating systems.
                 </p>
-                <p>
+                {/* <p>
                   Eaque consequuntur consequuntur libero expedita in voluptas.
                   Nostrum ipsam necessitatibus aliquam fugiat debitis quis
                   velit. Eum ex maxime error in consequatur corporis atque.
                   Eligendi asperiores sed qui veritatis aperiam quia a laborum
                   inventore
-                </p>
+                </p> */}
               </div>
               <div className="col-lg-4 text-center order-1 order-lg-2">
                 <img
@@ -210,16 +197,16 @@ export default function Course_details(){
           <div className="tab-pane" id="tab-5">
             <div className="row">
               <div className="col-lg-8 details order-2 order-lg-1">
-                <h3>Est eveniet ipsam sindera pad rone matrelat sando reda</h3>
+                <h3>Encourages Creativity and Problem-Solving</h3>
                 <p className="fst-italic">
-                  Omnis blanditiis saepe eos autem qui sunt debitis porro quia.
+                their creativity and imagination through programming. By designing and coding their own games, users develop critical thinking skills and learn how to solve problems in a logical and systematic way.
                 </p>
-                <p>
+                {/* <p>
                   Exercitationem nostrum omnis. Ut reiciendis repudiandae minus.
                   Omnis recusandae ut non quam ut quod eius qui. Ipsum quia odit
                   vero atque qui quibusdam amet. Occaecati sed est sint aut
                   vitae molestiae voluptate vel
-                </p>
+                </p> */}
               </div>
               <div className="col-lg-4 text-center order-1 order-lg-2">
                 <img

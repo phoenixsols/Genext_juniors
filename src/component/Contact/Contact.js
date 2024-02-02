@@ -7,23 +7,27 @@ export default function Contact(){
     <div className="breadcrumbs" data-aos="fade-in">
   <div className="container">
     <h2>Contact Us</h2>
-    <p>
+    {/* <p>
       Est dolorum ut non facere possimus quibusdam eligendi voluptatem. Quia id
       aut similique quia voluptas sit quaerat debitis. Rerum omnis ipsam aperiam
       consequatur laboriosam nemo harum praesentium.{" "}
-    </p>
+    </p> */}
   </div>
 </div>
 
 
 <section id="contact" className="contact">
   <div data-aos="fade-up">
-    <iframe
-      style={{ border: 0, width: "100%", height: 350 }}
-      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
-      frameBorder={0}
-      allowFullScreen=""
-    />
+  <iframe
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29448.009963284385!2d75.7994467020035!3d22.690997559081513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fc4855555555%3A0x7c92e5032a0b9681!2sGenext%20Computers%20N%20Spoken%20English!5e0!3m2!1sen!2sin!4v1706779948787!5m2!1sen!2sin"
+  width={'100%'}
+  height={450}
+  style={{ border: 0 }}
+  allowFullScreen=""
+  loading="lazy"
+  referrerPolicy="no-referrer-when-downgrade"
+/>
+
   </div>
   <div className="container" data-aos="fade-up">
     <div className="row mt-5">
@@ -32,17 +36,20 @@ export default function Contact(){
           <div className="address">
             <i className="bi bi-geo-alt" />
             <h4>Location:</h4>
-            <p>A108 Adam Street, New York, NY 535022</p>
+            <p>Kandhari Plaza, 6, Opposite Annapurna Temple, <br /> Sudama Nagar, Indore, Madhya Pradesh 452009</p>
           </div>
           <div className="email">
             <i className="bi bi-envelope" />
             <h4>Email:</h4>
-            <p>info@example.com</p>
+            <a href="mailto:info@genextjuniors.com">&nbsp;&nbsp;&nbsp;info@genextjuniors.com</a>
+            {/* <p>info@genextjuniors.com</p> */}
           </div>
           <div className="phone">
             <i className="bi bi-phone" />
             <h4>Call:</h4>
-            <p>+1 5589 55488 55s</p>
+            <a href="tel:+91 9893078853">&nbsp;&nbsp;&nbsp;+91 9893078853</a> <br />
+            <a href="tel:0731 407885">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0731 4078854</a>
+  
           </div>
         </div>
       </div>

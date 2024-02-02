@@ -8,9 +8,7 @@ export default function Game(){
   <div className="container">
     <h2>Game Development</h2>
     <p>
-      Est dolorum ut non facere possimus quibusdam eligendi voluptatem. Quia id
-      aut similique quia voluptas sit quaerat debitis. Rerum omnis ipsam aperiam
-      consequatur laboriosam nemo harum praesentium.{" "}
+    Are you ready to dive into the exciting world of game development? Get ready to unleash your creativity and bring your wildest imaginations to life! Game development is not just about playing games{" "}
     </p>
   </div>
     </div>
@@ -21,22 +19,13 @@ export default function Game(){
       <div className="row">
         <div className="col-lg-8">
           <img
-            src="assets/img/course-details.jpg"
+            src="assets/img/gamedevelopment.jpg"
             className="img-fluid"
             alt=""
           />
-          <h3>Et enim incidunt fuga tempora</h3>
+          <h3>Learn the Tools of the Trade</h3>
           <p>
-            Qui et explicabo voluptatem et ab qui vero et voluptas. Sint
-            voluptates temporibus quam autem. Atque nostrum voluptatum
-            laudantium a doloremque enim et ut dicta. Nostrum ducimus est iure
-            minima totam doloribus nisi ullam deserunt. Corporis aut officiis
-            sit nihil est. Labore aut sapiente aperiam. Qui voluptas qui vero
-            ipsum ea voluptatem. Omnis et est. Voluptatem officia voluptatem
-            adipisci et iusto provident doloremque consequatur. Quia et porro
-            est. Et qui corrupti laudantium ipsa. Eum quasi saepe aperiam qui
-            delectus quaerat in. Vitae mollitia ipsa quam. Ipsa aut qui numquam
-            eum iste est dolorum. Rem voluptas ut sit ut.
+          Just like a carpenter needs tools to build a house, a game developer needs tools to build a game. Fortunately, there are plenty of game development engines and software available to help you bring your vision to life. From industry-standard engines like Unity and Unreal Engine to beginner-friendly platforms like Scratch and GameMaker Studio, there's a tool out there for every skill level and project scope. So, roll up your sleeves and start experimenting with different tools to find the one that's right for you!
           </p>
         </div>
         <div className="col-lg-4">
@@ -74,27 +63,27 @@ export default function Game(){
               data-bs-toggle="tab"
               href="#tab-1"
             >
-              Modi sit est
+              Master the Art of Coding:
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" data-bs-toggle="tab" href="#tab-2">
-              Unde praesentium sed
+            Design, Create, Iterate
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" data-bs-toggle="tab" href="#tab-3">
-              Pariatur explicabo vel
+            Collaborate and Network
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" data-bs-toggle="tab" href="#tab-4">
-              Nostrum qui quasi
+            Release and Share Your Creation
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" data-bs-toggle="tab" href="#tab-5">
-              Iusto ut expedita aut
+            Playtest and Polish
             </a>
           </li>
         </ul>
@@ -104,18 +93,17 @@ export default function Game(){
           <div className="tab-pane active show" id="tab-1">
             <div className="row">
               <div className="col-lg-8 details order-2 order-lg-1">
-                <h3>Architecto ut aperiam autem id</h3>
+                <h3>Master the Art of Coding:</h3>
                 <p className="fst-italic">
-                  Qui laudantium consequatur laborum sit qui ad sapiente dila
-                  parde sonata raqer a videna mareta paulona marka
+                At Genext the heart of every great game is a solid foundation of code. Learning to code may seem daunting at first, but with practice and perseverance, you'll soon become a coding ninja! Start by learning the basics of programming languages like Python, C#, or JavaScript – these languages are widely used in the game development industry and will serve as valuable skills throughout your career. As you become more proficient, you can experiment with more advanced concepts like artificial intelligence, physics simulations, and procedural generation to take your games to the next level.
                 </p>
-                <p>
+                {/* <p>
                   Et nobis maiores eius. Voluptatibus ut enim blanditiis atque
                   harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut
                   molestiae aut qui. Est repellat minima eveniet eius et quis
                   magni nihil. Consequatur dolorem quaerat quos qui similique
                   accusamus nostrum rem vero
-                </p>
+                </p> */}
               </div>
               <div className="col-lg-4 text-center order-1 order-lg-2">
                 <img
@@ -129,18 +117,17 @@ export default function Game(){
           <div className="tab-pane" id="tab-2">
             <div className="row">
               <div className="col-lg-8 details order-2 order-lg-1">
-                <h3>Et blanditiis nemo veritatis excepturi</h3>
+                <h3>Design, Create, Iterate</h3>
                 <p className="fst-italic">
-                  Qui laudantium consequatur laborum sit qui ad sapiente dila
-                  parde sonata raqer a videna mareta paulona marka
+                Game development is an iterative process – it's all about designing, creating, and refining your game until it's just right. Start by sketching out your ideas on paper, creating prototypes to test your gameplay mechanics, and gathering feedback from friends, family, and fellow developers. Don't be afraid to make mistakes or scrap ideas that aren't working – every setback is an opportunity to learn and grow as a game developer.
                 </p>
-                <p>
+                {/* <p>
                   Ea ipsum voluptatem consequatur quis est. Illum error ullam
                   omnis quia et reiciendis sunt sunt est. Non aliquid
                   repellendus itaque accusamus eius et velit ipsa voluptates.
                   Optio nesciunt eaque beatae accusamus lerode pakto madirna
                   desera vafle de nideran pal
-                </p>
+                </p> */}
               </div>
               <div className="col-lg-4 text-center order-1 order-lg-2">
                 <img
@@ -154,19 +141,17 @@ export default function Game(){
           <div className="tab-pane" id="tab-3">
             <div className="row">
               <div className="col-lg-8 details order-2 order-lg-1">
-                <h3>Impedit facilis occaecati odio neque aperiam sit</h3>
+                <h3>Collaborate and Network</h3>
                 <p className="fst-italic">
-                  Eos voluptatibus quo. Odio similique illum id quidem non enim
-                  fuga. Qui natus non sunt dicta dolor et. In asperiores velit
-                  quaerat perferendis aut
+                Game development is a collaborative effort – it's rare for a single person to create a game entirely on their own. That's why it's essential to collaborate with others, whether it's working with artists to create stunning visuals, musicians to compose epic soundtracks, or fellow developers to brainstorm ideas and solve problems together. Networking with other developers and participating in game jams, conferences, and online forums is also a great way to learn from others, share your work, and build connections within the industry.
                 </p>
-                <p>
+                {/* <p>
                   Iure officiis odit rerum. Harum sequi eum illum corrupti culpa
                   veritatis quisquam. Neque necessitatibus illo rerum eum ut.
                   Commodi ipsam minima molestiae sed laboriosam a iste odio.
                   Earum odit nesciunt fugiat sit ullam. Soluta et harum
                   voluptatem optio quae
-                </p>
+                </p> */}
               </div>
               <div className="col-lg-4 text-center order-1 order-lg-2">
                 <img
@@ -181,20 +166,18 @@ export default function Game(){
             <div className="row">
               <div className="col-lg-8 details order-2 order-lg-1">
                 <h3>
-                  Fuga dolores inventore laboriosam ut est accusamus laboriosam
-                  dolore
+                Release and Share Your Creation
                 </h3>
                 <p className="fst-italic">
-                  Totam aperiam accusamus. Repellat consequuntur iure voluptas
-                  iure porro quis delectus
+                Congratulations, you've done it – your game is finally ready for the world to see! Whether you're publishing your game on a digital storefront like Steam or the App Store, sharing it on a web platform like itch.io, or distributing it through your own website, releasing your game is an exciting milestone in your game development journey. Be sure to promote your game through social media, press releases, and community forums to reach as many players as possible and share your creation with the world!
                 </p>
-                <p>
+                {/* <p>
                   Eaque consequuntur consequuntur libero expedita in voluptas.
                   Nostrum ipsam necessitatibus aliquam fugiat debitis quis
                   velit. Eum ex maxime error in consequatur corporis atque.
                   Eligendi asperiores sed qui veritatis aperiam quia a laborum
                   inventore
-                </p>
+                </p> */}
               </div>
               <div className="col-lg-4 text-center order-1 order-lg-2">
                 <img
@@ -208,16 +191,16 @@ export default function Game(){
           <div className="tab-pane" id="tab-5">
             <div className="row">
               <div className="col-lg-8 details order-2 order-lg-1">
-                <h3>Est eveniet ipsam sindera pad rone matrelat sando reda</h3>
+                <h3>Playtest and Polish</h3>
                 <p className="fst-italic">
-                  Omnis blanditiis saepe eos autem qui sunt debitis porro quia.
+                Once your game is up and running, it's time to put it to the test! Gather a group of playtesters to try out your game and provide feedback on everything from gameplay mechanics and level design to graphics and user interface. Use this feedback to identify areas for improvement and make necessary adjustments to polish your game until it shines. Remember, even the best games go through multiple iterations before they're ready for release – so don't be afraid to iterate, iterate, iterate!
                 </p>
-                <p>
+                {/* <p>
                   Exercitationem nostrum omnis. Ut reiciendis repudiandae minus.
                   Omnis recusandae ut non quam ut quod eius qui. Ipsum quia odit
                   vero atque qui quibusdam amet. Occaecati sed est sint aut
                   vitae molestiae voluptate vel
-                </p>
+                </p> */}
               </div>
               <div className="col-lg-4 text-center order-1 order-lg-2">
                 <img

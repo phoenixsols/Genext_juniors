@@ -11,9 +11,7 @@ export default function Robotics(){
   <div className="container">
     <h2>AI & Robotics</h2>
     <p>
-      Est dolorum ut non facere possimus quibusdam eligendi voluptatem. Quia id
-      aut similique quia voluptas sit quaerat debitis. Rerum omnis ipsam aperiam
-      consequatur laboriosam nemo harum praesentium.{" "}
+    Artificial Intelligence (AI) and Robotics are two cutting-edge fields that are rapidly evolving and increasingly intersecting. As technology advances, the integration of AI into robotics has revolutionized various industries, from manufacturing and healthcare to transportation and entertainment{" "}
     </p>
   </div>
     </div>
@@ -24,22 +22,13 @@ export default function Robotics(){
       <div className="row">
         <div className="col-lg-8">
           <img
-            src="assets/img/course-details.jpg"
+            src="assets/img/robotics.jpg"
             className="img-fluid"
             alt=""
           />
-          <h3>Et enim incidunt fuga tempora</h3>
+          <h3>The Future of AI & Robotics</h3>
           <p>
-            Qui et explicabo voluptatem et ab qui vero et voluptas. Sint
-            voluptates temporibus quam autem. Atque nostrum voluptatum
-            laudantium a doloremque enim et ut dicta. Nostrum ducimus est iure
-            minima totam doloribus nisi ullam deserunt. Corporis aut officiis
-            sit nihil est. Labore aut sapiente aperiam. Qui voluptas qui vero
-            ipsum ea voluptatem. Omnis et est. Voluptatem officia voluptatem
-            adipisci et iusto provident doloremque consequatur. Quia et porro
-            est. Et qui corrupti laudantium ipsa. Eum quasi saepe aperiam qui
-            delectus quaerat in. Vitae mollitia ipsa quam. Ipsa aut qui numquam
-            eum iste est dolorum. Rem voluptas ut sit ut.
+          The future of AI and robotics holds tremendous promise for innovation and progress across various domains. As AI algorithms become more sophisticated and robotics hardware becomes more advanced, we can expect to see even greater integration and synergy between these two fields. From self-driving cars and delivery drones to intelligent home assistants and robotic companions, AI-powered robots will increasingly become part of our everyday lives, transforming how we work, live, and interact with the world around us.
           </p>
         </div>
         <div className="col-lg-4">
@@ -77,27 +66,27 @@ export default function Robotics(){
               data-bs-toggle="tab"
               href="#tab-1"
             >
-              Modi sit est
+              Robo-Friends Everywhere
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" data-bs-toggle="tab" href="#tab-2">
-              Unde praesentium sed
+            Fun and Learning with Robot Buddies
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" data-bs-toggle="tab" href="#tab-3">
-              Pariatur explicabo vel
+            Robots and You
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" data-bs-toggle="tab" href="#tab-4">
-              Nostrum qui quasi
+            Let's Imagine Together
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" data-bs-toggle="tab" href="#tab-5">
-              Iusto ut expedita aut
+            Creative Robot Artists
             </a>
           </li>
         </ul>
@@ -107,18 +96,17 @@ export default function Robotics(){
           <div className="tab-pane active show" id="tab-1">
             <div className="row">
               <div className="col-lg-8 details order-2 order-lg-1">
-                <h3>Architecto ut aperiam autem id</h3>
+                <h3>Robo-Friends Everywhere</h3>
                 <p className="fst-italic">
-                  Qui laudantium consequatur laborum sit qui ad sapiente dila
-                  parde sonata raqer a videna mareta paulona marka
+                Imagine having a robot friend to help you clean your room, play games, or even learn new things! AI-powered robots are becoming more like friendly helpers, and they can do all sorts of cool stuff, like helping out in the kitchen or playing your favorite games with you.
                 </p>
-                <p>
+                {/* <p>
                   Et nobis maiores eius. Voluptatibus ut enim blanditiis atque
                   harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut
                   molestiae aut qui. Est repellat minima eveniet eius et quis
                   magni nihil. Consequatur dolorem quaerat quos qui similique
                   accusamus nostrum rem vero
-                </p>
+                </p> */}
               </div>
               <div className="col-lg-4 text-center order-1 order-lg-2">
                 <img
@@ -132,18 +120,17 @@ export default function Robotics(){
           <div className="tab-pane" id="tab-2">
             <div className="row">
               <div className="col-lg-8 details order-2 order-lg-1">
-                <h3>Et blanditiis nemo veritatis excepturi</h3>
+                <h3>Fun and Learning with Robot Buddies</h3>
                 <p className="fst-italic">
-                  Qui laudantium consequatur laborum sit qui ad sapiente dila
-                  parde sonata raqer a videna mareta paulona marka
+                Have you ever wanted to learn how to code? With AI-powered robots, you can! There are special robots designed just for kids to learn coding in a fun and interactive way. You can teach your robot friend to dance, solve puzzles, or even navigate through mazes – the possibilities are endless!
                 </p>
-                <p>
+                {/* <p>
                   Ea ipsum voluptatem consequatur quis est. Illum error ullam
                   omnis quia et reiciendis sunt sunt est. Non aliquid
                   repellendus itaque accusamus eius et velit ipsa voluptates.
                   Optio nesciunt eaque beatae accusamus lerode pakto madirna
                   desera vafle de nideran pal
-                </p>
+                </p> */}
               </div>
               <div className="col-lg-4 text-center order-1 order-lg-2">
                 <img
@@ -157,19 +144,17 @@ export default function Robotics(){
           <div className="tab-pane" id="tab-3">
             <div className="row">
               <div className="col-lg-8 details order-2 order-lg-1">
-                <h3>Impedit facilis occaecati odio neque aperiam sit</h3>
+                <h3>Robots and You</h3>
                 <p className="fst-italic">
-                  Eos voluptatibus quo. Odio similique illum id quidem non enim
-                  fuga. Qui natus non sunt dicta dolor et. In asperiores velit
-                  quaerat perferendis aut
+                Have you ever wondered what it would be like to have a robot friend of your own? With AI and robotics, the future is full of exciting possibilities! Whether it's playing games, exploring new places, or learning new things, robots can be our helpful companions every step of the way.
                 </p>
-                <p>
+                {/* <p>
                   Iure officiis odit rerum. Harum sequi eum illum corrupti culpa
                   veritatis quisquam. Neque necessitatibus illo rerum eum ut.
                   Commodi ipsam minima molestiae sed laboriosam a iste odio.
                   Earum odit nesciunt fugiat sit ullam. Soluta et harum
                   voluptatem optio quae
-                </p>
+                </p> */}
               </div>
               <div className="col-lg-4 text-center order-1 order-lg-2">
                 <img
@@ -184,20 +169,18 @@ export default function Robotics(){
             <div className="row">
               <div className="col-lg-8 details order-2 order-lg-1">
                 <h3>
-                  Fuga dolores inventore laboriosam ut est accusamus laboriosam
-                  dolore
+                Let's Imagine Together
                 </h3>
                 <p className="fst-italic">
-                  Totam aperiam accusamus. Repellat consequuntur iure voluptas
-                  iure porro quis delectus
+                Close your eyes and imagine a world where robots are our friends and helpers, making our lives easier and more fun. With your creativity and imagination, you can dream up all sorts of amazing adventures and inventions that AI-powered robots could be a part of!
                 </p>
-                <p>
+                {/* <p>
                   Eaque consequuntur consequuntur libero expedita in voluptas.
                   Nostrum ipsam necessitatibus aliquam fugiat debitis quis
                   velit. Eum ex maxime error in consequatur corporis atque.
                   Eligendi asperiores sed qui veritatis aperiam quia a laborum
                   inventore
-                </p>
+                </p> */}
               </div>
               <div className="col-lg-4 text-center order-1 order-lg-2">
                 <img
@@ -211,16 +194,16 @@ export default function Robotics(){
           <div className="tab-pane" id="tab-5">
             <div className="row">
               <div className="col-lg-8 details order-2 order-lg-1">
-                <h3>Est eveniet ipsam sindera pad rone matrelat sando reda</h3>
+                <h3>Creative Robot Artists</h3>
                 <p className="fst-italic">
-                  Omnis blanditiis saepe eos autem qui sunt debitis porro quia.
+                Did you know that robots can be artists too? With AI-powered robots, you can explore your creative side and make amazing works of art together! These artistic robots can paint pictures, create music, and even dance to their own beats. It's like having your very own robot art studio right at your fingertips!
                 </p>
-                <p>
+                {/* <p>
                   Exercitationem nostrum omnis. Ut reiciendis repudiandae minus.
                   Omnis recusandae ut non quam ut quod eius qui. Ipsum quia odit
                   vero atque qui quibusdam amet. Occaecati sed est sint aut
                   vitae molestiae voluptate vel
-                </p>
+                </p> */}
               </div>
               <div className="col-lg-4 text-center order-1 order-lg-2">
                 <img

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-export default function Nav(){
+export default function Nav1(){
     return<>
     <>
   <header id="header" className="fixed-top">

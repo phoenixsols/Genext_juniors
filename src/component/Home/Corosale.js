@@ -11,9 +11,9 @@ export default function Corosale(){
       data-aos-delay={100}
     >
       <h1>
-        Learning Today,
+        Genext Juniors
         <br />
-        Leading Tomorrow
+ 
       </h1>
       <h2>We provide best platform to Enhance yout child skills</h2>
       <Link to={'/'} className="btn-get-started">
