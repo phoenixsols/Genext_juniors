@@ -1,16 +1,19 @@
+import { useEffect } from "react";
 import Footer from "../Footer/Footer";
 import Nav from "../Nav/Nav";
+import Languages from "../Home/Languages";
 
 export default function Graphic(){
+  useEffect(() => {
+    window.scrollTo(0, 0)
+}, [])
     return<>
      <Nav/>
     <div className="breadcrumbs" data-aos="fade-in">
   <div className="container">
     <h2>Graphic Designing</h2>
     <p>
-      Est dolorum ut non facere possimus quibusdam eligendi voluptatem. Quia id
-      aut similique quia voluptas sit quaerat debitis. Rerum omnis ipsam aperiam
-      consequatur laboriosam nemo harum praesentium.{" "}
+    Hey there, young artist! Are you ready to explore the exciting world of graphic design? Get ready to unleash your creativity, experiment with colors and shapes, and bring your ideas to life in stunning detail. Whether you dream of designing posters, creating logos, or illustrating your own comics, graphic design is your ticket to endless possibilities. {" "}
     </p>
   </div>
     </div>
@@ -21,22 +24,13 @@ export default function Graphic(){
       <div className="row">
         <div className="col-lg-8">
           <img
-            src="assets/img/course-details.jpg"
-            className="img-fluid"
+            src="assets/img/graphic.jpg "
+            className="img-fluid w-100  h-100"
             alt=""
           />
-          <h3>Et enim incidunt fuga tempora</h3>
+          <h3>Explore the Elements of Design</h3>
           <p>
-            Qui et explicabo voluptatem et ab qui vero et voluptas. Sint
-            voluptates temporibus quam autem. Atque nostrum voluptatum
-            laudantium a doloremque enim et ut dicta. Nostrum ducimus est iure
-            minima totam doloribus nisi ullam deserunt. Corporis aut officiis
-            sit nihil est. Labore aut sapiente aperiam. Qui voluptas qui vero
-            ipsum ea voluptatem. Omnis et est. Voluptatem officia voluptatem
-            adipisci et iusto provident doloremque consequatur. Quia et porro
-            est. Et qui corrupti laudantium ipsa. Eum quasi saepe aperiam qui
-            delectus quaerat in. Vitae mollitia ipsa quam. Ipsa aut qui numquam
-            eum iste est dolorum. Rem voluptas ut sit ut.
+            QAt the heart of graphic design are the elements of design – the building blocks that designers use to create artwork. Learn about line, shape, color, texture, and space, and how these elements work together to create visually appealing compositions. Experiment with different combinations of elements to create mood, evoke emotion, and tell stories through your artwork.
           </p>
         </div>
         <div className="col-lg-4">
@@ -74,27 +68,27 @@ export default function Graphic(){
               data-bs-toggle="tab"
               href="#tab-1"
             >
-              Modi sit est
+             What is Graphic Design?
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" data-bs-toggle="tab" href="#tab-2">
-              Unde praesentium sed
+            Dive into the World of Typography
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" data-bs-toggle="tab" href="#tab-3">
-              Pariatur explicabo vel
+            Get Creative with Color
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" data-bs-toggle="tab" href="#tab-4">
-              Nostrum qui quasi
+            Embrace Digital Tools and Software
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" data-bs-toggle="tab" href="#tab-5">
-              Iusto ut expedita aut
+            Share Your Creativity with the World
             </a>
           </li>
         </ul>
@@ -104,18 +98,11 @@ export default function Graphic(){
           <div className="tab-pane active show" id="tab-1">
             <div className="row">
               <div className="col-lg-8 details order-2 order-lg-1">
-                <h3>Architecto ut aperiam autem id</h3>
+                <h3>What is Graphic Design?</h3>
                 <p className="fst-italic">
-                  Qui laudantium consequatur laborum sit qui ad sapiente dila
-                  parde sonata raqer a videna mareta paulona marka
+                Graphic design is all about using images, colors, and typography to communicate ideas and messages visually. From eye-catching logos and stylish websites to captivating book covers and colorful illustrations, graphic design is everywhere you look. By learning about graphic design, you'll discover how to use design principles and tools to create artwork that not only looks great but also communicates effectively to your audience.
                 </p>
-                <p>
-                  Et nobis maiores eius. Voluptatibus ut enim blanditiis atque
-                  harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut
-                  molestiae aut qui. Est repellat minima eveniet eius et quis
-                  magni nihil. Consequatur dolorem quaerat quos qui similique
-                  accusamus nostrum rem vero
-                </p>
+             
               </div>
               <div className="col-lg-4 text-center order-1 order-lg-2">
                 <img
@@ -129,18 +116,11 @@ export default function Graphic(){
           <div className="tab-pane" id="tab-2">
             <div className="row">
               <div className="col-lg-8 details order-2 order-lg-1">
-                <h3>Et blanditiis nemo veritatis excepturi</h3>
+                <h3>Dive into the World of Typography</h3>
                 <p className="fst-italic">
-                  Qui laudantium consequatur laborum sit qui ad sapiente dila
-                  parde sonata raqer a videna mareta paulona marka
+                Typography is the art of arranging and styling text, and it plays a crucial role in graphic design. Learn about different fonts, typefaces, and styles, and how they can be used to convey personality, tone, and meaning in your designs. Experiment with typography to create eye-catching headlines, readable body text, and stylish logos that make your designs stand out from the crowd.
                 </p>
-                <p>
-                  Ea ipsum voluptatem consequatur quis est. Illum error ullam
-                  omnis quia et reiciendis sunt sunt est. Non aliquid
-                  repellendus itaque accusamus eius et velit ipsa voluptates.
-                  Optio nesciunt eaque beatae accusamus lerode pakto madirna
-                  desera vafle de nideran pal
-                </p>
+          
               </div>
               <div className="col-lg-4 text-center order-1 order-lg-2">
                 <img
@@ -154,19 +134,11 @@ export default function Graphic(){
           <div className="tab-pane" id="tab-3">
             <div className="row">
               <div className="col-lg-8 details order-2 order-lg-1">
-                <h3>Impedit facilis occaecati odio neque aperiam sit</h3>
+                <h3>Get Creative with Color</h3>
                 <p className="fst-italic">
-                  Eos voluptatibus quo. Odio similique illum id quidem non enim
-                  fuga. Qui natus non sunt dicta dolor et. In asperiores velit
-                  quaerat perferendis aut
+                Color is one of the most powerful tools in a graphic designer's toolkit. Learn about color theory, the color wheel, and how to use color effectively in your designs. Explore different color palettes, experiment with shades and tints, and discover the psychology of color – how different colors can evoke different emotions and reactions in your audience. With a good understanding of color, you can create artwork that pops and grabs attention!
                 </p>
-                <p>
-                  Iure officiis odit rerum. Harum sequi eum illum corrupti culpa
-                  veritatis quisquam. Neque necessitatibus illo rerum eum ut.
-                  Commodi ipsam minima molestiae sed laboriosam a iste odio.
-                  Earum odit nesciunt fugiat sit ullam. Soluta et harum
-                  voluptatem optio quae
-                </p>
+             
               </div>
               <div className="col-lg-4 text-center order-1 order-lg-2">
                 <img
@@ -181,20 +153,12 @@ export default function Graphic(){
             <div className="row">
               <div className="col-lg-8 details order-2 order-lg-1">
                 <h3>
-                  Fuga dolores inventore laboriosam ut est accusamus laboriosam
-                  dolore
+                Embrace Digital Tools and Software
                 </h3>
                 <p className="fst-italic">
-                  Totam aperiam accusamus. Repellat consequuntur iure voluptas
-                  iure porro quis delectus
+                In today's digital age, graphic design is as much about pixels as it is about pencils. Explore digital drawing and painting tools like Adobe Photoshop, Illustrator, or Procreate, and discover how to create artwork digitally using a tablet or computer. Experiment with layers, brushes, and special effects to add depth and dimension to your designs, and watch your artwork come to life in ways you never thought possible.
                 </p>
-                <p>
-                  Eaque consequuntur consequuntur libero expedita in voluptas.
-                  Nostrum ipsam necessitatibus aliquam fugiat debitis quis
-                  velit. Eum ex maxime error in consequatur corporis atque.
-                  Eligendi asperiores sed qui veritatis aperiam quia a laborum
-                  inventore
-                </p>
+            
               </div>
               <div className="col-lg-4 text-center order-1 order-lg-2">
                 <img
@@ -208,16 +172,11 @@ export default function Graphic(){
           <div className="tab-pane" id="tab-5">
             <div className="row">
               <div className="col-lg-8 details order-2 order-lg-1">
-                <h3>Est eveniet ipsam sindera pad rone matrelat sando reda</h3>
+                <h3>Share Your Creativity with the World</h3>
                 <p className="fst-italic">
-                  Omnis blanditiis saepe eos autem qui sunt debitis porro quia.
+                Once your designs are complete, it's time to share them with the world! Whether you showcase your artwork online through social media, create a portfolio to share with friends and family, or even print your designs on posters or t-shirts, sharing your creativity is what graphic design is all about. Be proud of your work, and don't be afraid to show it off – you never know who might be inspired by your designs!
                 </p>
-                <p>
-                  Exercitationem nostrum omnis. Ut reiciendis repudiandae minus.
-                  Omnis recusandae ut non quam ut quod eius qui. Ipsum quia odit
-                  vero atque qui quibusdam amet. Occaecati sed est sint aut
-                  vitae molestiae voluptate vel
-                </p>
+              
               </div>
               <div className="col-lg-4 text-center order-1 order-lg-2">
                 <img
@@ -233,6 +192,7 @@ export default function Graphic(){
     </div>
   </div>
 </section>
+<Languages/>
   <Footer/>
     
     </>

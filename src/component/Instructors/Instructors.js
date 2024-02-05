@@ -1,8 +1,12 @@
+import { useEffect } from "react";
 import Footer from "../Footer/Footer";
 import Trainer from "../Home/Trainer";
 import Nav from "../Nav/Nav";
 
 export default function Instructors(){
+  useEffect(() => {
+    window.scrollTo(0, 0)
+}, [])
     return<>
     <Nav/>
     <div className="breadcrumbs" data-aos="fade-in">
@@ -17,8 +21,5 @@ export default function Instructors(){
 </div>
     <Trainer/>
     <Footer/>
-    
-    
-    
     </>
 }

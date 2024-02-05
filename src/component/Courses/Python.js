@@ -1,7 +1,12 @@
+import { useEffect } from "react";
 import Footer from "../Footer/Footer";
 import Nav from "../Nav/Nav";
+import Languages from "../Home/Languages";
 
 export default function Python(){
+  useEffect(() => {
+    window.scrollTo(0, 0)
+}, [])
     return<>
     <Nav/>
     <div className="breadcrumbs" data-aos="fade-in">
@@ -97,13 +102,7 @@ export default function Python(){
                 <p className="fst-italic">
                 Python is known for its simplicity and readability, which makes it a breeze to learn – even for kids! Instead of typing out long and complicated commands, you'll use simple words and symbols to tell your computer what to do. Plus, Python comes with lots of helpful tools and resources, like colorful graphics and interactive tutorials, to help you along the way.
                 </p>
-                {/* <p>
-                  Et nobis maiores eius. Voluptatibus ut enim blanditiis atque
-                  harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut
-                  molestiae aut qui. Est repellat minima eveniet eius et quis
-                  magni nihil. Consequatur dolorem quaerat quos qui similique
-                  accusamus nostrum rem vero
-                </p> */}
+                
               </div>
               <div className="col-lg-4 text-center order-1 order-lg-2">
                 <img
@@ -121,13 +120,7 @@ export default function Python(){
                 <p className="fst-italic">
                 Did you know that Python is used by people all over the world, from scientists and engineers to artists and musicians? By learning Python, you'll be joining a global community of creative thinkers and problem solvers who use code to make the world a better place. Who knows – maybe you'll even become the next big Python superstar!
                 </p>
-                {/* <p>
-                  Ea ipsum voluptatem consequatur quis est. Illum error ullam
-                  omnis quia et reiciendis sunt sunt est. Non aliquid
-                  repellendus itaque accusamus eius et velit ipsa voluptates.
-                  Optio nesciunt eaque beatae accusamus lerode pakto madirna
-                  desera vafle de nideran pal
-                </p> */}
+         
               </div>
               <div className="col-lg-4 text-center order-1 order-lg-2">
                 <img
@@ -145,13 +138,7 @@ export default function Python(){
                 <p className="fst-italic">
                 Ready to dive into the exciting world of Python? Grab your computer (or tablet) and let's get started! There are tons of fun and free resources available online to help you learn Python, including interactive coding websites, video tutorials, and even online coding camps just for kids. So what are you waiting for? Let's start coding and make some magic happen!
                 </p>
-                {/* <p>
-                  Iure officiis odit rerum. Harum sequi eum illum corrupti culpa
-                  veritatis quisquam. Neque necessitatibus illo rerum eum ut.
-                  Commodi ipsam minima molestiae sed laboriosam a iste odio.
-                  Earum odit nesciunt fugiat sit ullam. Soluta et harum
-                  voluptatem optio quae
-                </p> */}
+              
               </div>
               <div className="col-lg-4 text-center order-1 order-lg-2">
                 <img
@@ -171,13 +158,7 @@ export default function Python(){
                 <p className="fst-italic">
                 The best part about learning Python is that there are no limits to what you can create. Don't be afraid to try new things, make mistakes, and experiment with different ideas. That's how you'll learn and grow as a coder – by exploring the endless possibilities of Python and unleashing your creativity!
                 </p>
-                {/* <p>
-                  Eaque consequuntur consequuntur libero expedita in voluptas.
-                  Nostrum ipsam necessitatibus aliquam fugiat debitis quis
-                  velit. Eum ex maxime error in consequatur corporis atque.
-                  Eligendi asperiores sed qui veritatis aperiam quia a laborum
-                  inventore
-                </p> */}
+                
               </div>
               <div className="col-lg-4 text-center order-1 order-lg-2">
                 <img
@@ -195,12 +176,7 @@ export default function Python(){
                 <p className="fst-italic">
                 Imagine Python as your own creative playground where you can bring your wildest ideas to life! Want to make a game where you dodge asteroids in space? With Python, you can do it! How about creating a virtual pet that responds to your commands? Python makes it possible! You're the boss, and Python is your trusty sidekick, ready to help you turn your imagination into reality.
                 </p>
-                {/* <p>
-                  Exercitationem nostrum omnis. Ut reiciendis repudiandae minus.
-                  Omnis recusandae ut non quam ut quod eius qui. Ipsum quia odit
-                  vero atque qui quibusdam amet. Occaecati sed est sint aut
-                  vitae molestiae voluptate vel
-                </p> */}
+               
               </div>
               <div className="col-lg-4 text-center order-1 order-lg-2">
                 <img
@@ -216,6 +192,7 @@ export default function Python(){
     </div>
   </div>
 </section>
+<Languages/>
   <Footer/>
     
     

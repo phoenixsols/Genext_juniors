@@ -1,7 +1,12 @@
+import { useEffect } from "react";
 import Footer from "../Footer/Footer";
 import Nav from "../Nav/Nav";
+import Languages from "../Home/Languages";
 
 export default function Canva(){
+  useEffect(() => {
+    window.scrollTo(0, 0)
+}, [])
     return<>
     <Nav/>
     <div className="breadcrumbs" data-aos="fade-in">
@@ -97,13 +102,7 @@ export default function Canva(){
                 <p className="fst-italic">
                 With Canva Pro, you'll never run out of inspiration for your next project. Browse through thousands of ready-to-use templates for every occasion, from business cards and brochures to Instagram posts and YouTube thumbnails. Simply choose a template that catches your eye, customize it with your own text and images, and voila – you've got a beautiful design in minutes!
                 </p>
-                {/* <p>
-                  Et nobis maiores eius. Voluptatibus ut enim blanditiis atque
-                  harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut
-                  molestiae aut qui. Est repellat minima eveniet eius et quis
-                  magni nihil. Consequatur dolorem quaerat quos qui similique
-                  accusamus nostrum rem vero
-                </p> */}
+                
               </div>
               <div className="col-lg-4 text-center order-1 order-lg-2">
                 <img
@@ -121,13 +120,7 @@ export default function Canva(){
                 <p className="fst-italic">
                 As a Canva Pro user, you'll unlock a treasure trove of premium features and resources to take your designs to the next level. Access millions of premium photos, illustrations, and graphics to add a professional touch to your creations. Plus, enjoy advanced features like transparent backgrounds, custom fonts, and resizable designs – all included with your Canva Pro subscription.
                 </p>
-                {/* <p>
-                  Ea ipsum voluptatem consequatur quis est. Illum error ullam
-                  omnis quia et reiciendis sunt sunt est. Non aliquid
-                  repellendus itaque accusamus eius et velit ipsa voluptates.
-                  Optio nesciunt eaque beatae accusamus lerode pakto madirna
-                  desera vafle de nideran pal
-                </p> */}
+              
               </div>
               <div className="col-lg-4 text-center order-1 order-lg-2">
                 <img
@@ -145,13 +138,7 @@ export default function Canva(){
                 <p className="fst-italic">
                 Whether you're working on a group project or collaborating with clients, Canva Pro makes teamwork a breeze. Share your designs with teammates or clients, invite them to edit or leave comments, and keep track of changes in real-time. With Canva Pro's collaboration features, you can work together seamlessly, no matter where you are in the world.
                 </p>
-                {/* <p>
-                  Iure officiis odit rerum. Harum sequi eum illum corrupti culpa
-                  veritatis quisquam. Neque necessitatibus illo rerum eum ut.
-                  Commodi ipsam minima molestiae sed laboriosam a iste odio.
-                  Earum odit nesciunt fugiat sit ullam. Soluta et harum
-                  voluptatem optio quae
-                </p> */}
+               
               </div>
               <div className="col-lg-4 text-center order-1 order-lg-2">
                 <img
@@ -195,12 +182,7 @@ export default function Canva(){
                 <p className="fst-italic">
                 With Canva Pro, you're not tied to your desktop – you can design on the go! Whether you're on your laptop, tablet, or smartphone, Canva Pro's cloud-based platform lets you access your designs from anywhere with an internet connection. So whether you're brainstorming ideas on the bus or putting the finishing touches on your masterpiece at home, Canva Pro has you covered.
                 </p>
-                {/* <p>
-                  Exercitationem nostrum omnis. Ut reiciendis repudiandae minus.
-                  Omnis recusandae ut non quam ut quod eius qui. Ipsum quia odit
-                  vero atque qui quibusdam amet. Occaecati sed est sint aut
-                  vitae molestiae voluptate vel
-                </p> */}
+              
               </div>
               <div className="col-lg-4 text-center order-1 order-lg-2">
                 <img
@@ -216,6 +198,7 @@ export default function Canva(){
     </div>
   </div>
 </section>
+<Languages/>
   <Footer/>
     
     </>

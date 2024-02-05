@@ -1,7 +1,7 @@
 export default function Message(){
     return<>
     <>
-  <section id="about" className="about">
+  <section id="about" className="about pb-0" >
     <div className="container" data-aos="fade-up">
       <div className="row">
         <div

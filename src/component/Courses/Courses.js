@@ -1,8 +1,12 @@
+import { useEffect } from "react";
 import Footer from "../Footer/Footer";
 import Popular_courses from "../Home/Popular_courses";
 import Nav from "../Nav/Nav";
 
 export default function Courses(){
+  useEffect(() => {
+    window.scrollTo(0, 0)
+}, [])
 return<>
 
 <Nav/>

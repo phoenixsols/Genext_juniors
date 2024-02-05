@@ -1,7 +1,12 @@
+import { useEffect } from "react";
 import Footer from "../Footer/Footer";
 import Nav from "../Nav/Nav";
+import Languages from "../Home/Languages";
 
 export default function Web(){
+  useEffect(() => {
+    window.scrollTo(0, 0)
+}, [])
     return<>
      <Nav/>
     <div className="breadcrumbs" data-aos="fade-in">
@@ -99,13 +104,7 @@ The web development training includes web design, web content development, clien
                 <p className="fst-italic">
                 Web designing is all about creating beautiful and user-friendly websites that people love to visit. From choosing colors and fonts to designing layouts and graphics, you'll have the chance to let your imagination run wild and bring your ideas to life. Whether you prefer sleek and modern designs or colorful and whimsical themes, the sky's the limit when it comes to designing your dream website.
                 </p>
-                {/* <p>
-                  Et nobis maiores eius. Voluptatibus ut enim blanditiis atque
-                  harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut
-                  molestiae aut qui. Est repellat minima eveniet eius et quis
-                  magni nihil. Consequatur dolorem quaerat quos qui similique
-                  accusamus nostrum rem vero
-                </p> */}
+              
               </div>
               <div className="col-lg-4 text-center order-1 order-lg-2">
                 <img
@@ -195,6 +194,7 @@ The web development training includes web design, web content development, clien
     </div>
   </div>
 </section>
+<Languages/>
   <Footer/>
     
     </>

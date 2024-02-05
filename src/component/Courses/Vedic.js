@@ -1,16 +1,19 @@
+import { useEffect } from "react";
 import Footer from "../Footer/Footer";
 import Nav from "../Nav/Nav";
+import Languages from "../Home/Languages";
 
 export default function Vedic(){
+  useEffect(() => {
+    window.scrollTo(0, 0)
+}, [])
     return<>
      <Nav/>
     <div className="breadcrumbs" data-aos="fade-in">
   <div className="container">
     <h2>Vedic Maths</h2>
     <p>
-      Est dolorum ut non facere possimus quibusdam eligendi voluptatem. Quia id
-      aut similique quia voluptas sit quaerat debitis. Rerum omnis ipsam aperiam
-      consequatur laboriosam nemo harum praesentium.{" "}
+    Vedic Maths has fun and easy-to-learn tricks that will make you a master of mental math in no time. So, grab your pencil and paper, and let's dive into the fascinating world of Vedic Maths!{" "}
     </p>
   </div>
     </div>
@@ -21,22 +24,13 @@ export default function Vedic(){
       <div className="row">
         <div className="col-lg-8">
           <img
-            src="assets/img/course-details.jpg"
-            className="img-fluid"
+            src="assets/img/vadic.jpg"
+            className="img-fluid w-100 " 
             alt=""
           />
-          <h3>Et enim incidunt fuga tempora</h3>
+          <h3>Discover the Magic of Vedic Maths: Fun Tricks for Fast Calculations!</h3>
           <p>
-            Qui et explicabo voluptatem et ab qui vero et voluptas. Sint
-            voluptates temporibus quam autem. Atque nostrum voluptatum
-            laudantium a doloremque enim et ut dicta. Nostrum ducimus est iure
-            minima totam doloribus nisi ullam deserunt. Corporis aut officiis
-            sit nihil est. Labore aut sapiente aperiam. Qui voluptas qui vero
-            ipsum ea voluptatem. Omnis et est. Voluptatem officia voluptatem
-            adipisci et iusto provident doloremque consequatur. Quia et porro
-            est. Et qui corrupti laudantium ipsa. Eum quasi saepe aperiam qui
-            delectus quaerat in. Vitae mollitia ipsa quam. Ipsa aut qui numquam
-            eum iste est dolorum. Rem voluptas ut sit ut.
+          Hey there, young mathematician! Are you ready to unlock the secrets of Vedic Maths and become a math wizard? Get ready to amaze your friends, impress your teachers, and solve math problems faster than you ever thought possible. Whether you're adding numbers, multiplying digits, or finding square roots, Vedic Maths has fun and easy-to-learn tricks that will make you a master of mental math in no time. So, grab your pencil and paper, and let's dive into the fascinating world of Vedic Maths!
           </p>
         </div>
         <div className="col-lg-4">
@@ -74,27 +68,27 @@ export default function Vedic(){
               data-bs-toggle="tab"
               href="#tab-1"
             >
-              Modi sit est
+             What is Vedic Maths?
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" data-bs-toggle="tab" href="#tab-2">
-              Unde praesentium sed
+            Speedy Addition and Subtraction
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" data-bs-toggle="tab" href="#tab-3">
-              Pariatur explicabo vel
+            Multiplication Magic
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" data-bs-toggle="tab" href="#tab-4">
-              Nostrum qui quasi
+            Practice Makes Perfect
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" data-bs-toggle="tab" href="#tab-5">
-              Iusto ut expedita aut
+            Have Fun with Math
             </a>
           </li>
         </ul>
@@ -104,18 +98,11 @@ export default function Vedic(){
           <div className="tab-pane active show" id="tab-1">
             <div className="row">
               <div className="col-lg-8 details order-2 order-lg-1">
-                <h3>Architecto ut aperiam autem id</h3>
+                <h3>What is Vedic Maths?</h3>
                 <p className="fst-italic">
-                  Qui laudantium consequatur laborum sit qui ad sapiente dila
-                  parde sonata raqer a videna mareta paulona marka
+                Vedic Maths is an ancient system of mathematics that originated in India thousands of years ago. Based on ancient Vedic scriptures, Vedic Maths offers simple and efficient techniques for solving math problems mentally and quickly. By learning Vedic Maths, you can perform complex calculations with ease and confidence, without the need for calculators or written calculations.
                 </p>
-                <p>
-                  Et nobis maiores eius. Voluptatibus ut enim blanditiis atque
-                  harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut
-                  molestiae aut qui. Est repellat minima eveniet eius et quis
-                  magni nihil. Consequatur dolorem quaerat quos qui similique
-                  accusamus nostrum rem vero
-                </p>
+            
               </div>
               <div className="col-lg-4 text-center order-1 order-lg-2">
                 <img
@@ -129,18 +116,11 @@ export default function Vedic(){
           <div className="tab-pane" id="tab-2">
             <div className="row">
               <div className="col-lg-8 details order-2 order-lg-1">
-                <h3>Et blanditiis nemo veritatis excepturi</h3>
+                <h3>Speedy Addition and Subtraction</h3>
                 <p className="fst-italic">
-                  Qui laudantium consequatur laborum sit qui ad sapiente dila
-                  parde sonata raqer a videna mareta paulona marka
+                With Vedic Maths, you can add and subtract numbers faster than ever before! Learn techniques like "Vertically and Crosswise" and "All from 9 and the Last from 10" to perform addition and subtraction with lightning speed. These tricks help you break down large numbers into smaller, more manageable parts, making it easier to perform mental calculations in your head.
                 </p>
-                <p>
-                  Ea ipsum voluptatem consequatur quis est. Illum error ullam
-                  omnis quia et reiciendis sunt sunt est. Non aliquid
-                  repellendus itaque accusamus eius et velit ipsa voluptates.
-                  Optio nesciunt eaque beatae accusamus lerode pakto madirna
-                  desera vafle de nideran pal
-                </p>
+             
               </div>
               <div className="col-lg-4 text-center order-1 order-lg-2">
                 <img
@@ -154,19 +134,11 @@ export default function Vedic(){
           <div className="tab-pane" id="tab-3">
             <div className="row">
               <div className="col-lg-8 details order-2 order-lg-1">
-                <h3>Impedit facilis occaecati odio neque aperiam sit</h3>
+                <h3>Multiplication Magic</h3>
                 <p className="fst-italic">
-                  Eos voluptatibus quo. Odio similique illum id quidem non enim
-                  fuga. Qui natus non sunt dicta dolor et. In asperiores velit
-                  quaerat perferendis aut
+                Say goodbye to long multiplication tables – with Vedic Maths, you can multiply numbers in seconds! Techniques like "Multiplication by Base" and "Nikhilam Sutra" allow you to multiply digits effortlessly, even for large numbers. By using clever shortcuts and patterns, you can solve multiplication problems mentally and impress everyone with your lightning-fast math skills.
                 </p>
-                <p>
-                  Iure officiis odit rerum. Harum sequi eum illum corrupti culpa
-                  veritatis quisquam. Neque necessitatibus illo rerum eum ut.
-                  Commodi ipsam minima molestiae sed laboriosam a iste odio.
-                  Earum odit nesciunt fugiat sit ullam. Soluta et harum
-                  voluptatem optio quae
-                </p>
+                
               </div>
               <div className="col-lg-4 text-center order-1 order-lg-2">
                 <img
@@ -181,20 +153,12 @@ export default function Vedic(){
             <div className="row">
               <div className="col-lg-8 details order-2 order-lg-1">
                 <h3>
-                  Fuga dolores inventore laboriosam ut est accusamus laboriosam
-                  dolore
+                Practice Makes Perfect
                 </h3>
                 <p className="fst-italic">
-                  Totam aperiam accusamus. Repellat consequuntur iure voluptas
-                  iure porro quis delectus
+                Like any skill, mastering Vedic Maths takes practice and patience. Start by practicing simple techniques and gradually work your way up to more complex problems. Challenge yourself with puzzles, quizzes, and real-life scenarios to put your Vedic Maths skills to the test. The more you practice, the faster and more confident you'll become in your mental math abilities.
                 </p>
-                <p>
-                  Eaque consequuntur consequuntur libero expedita in voluptas.
-                  Nostrum ipsam necessitatibus aliquam fugiat debitis quis
-                  velit. Eum ex maxime error in consequatur corporis atque.
-                  Eligendi asperiores sed qui veritatis aperiam quia a laborum
-                  inventore
-                </p>
+               
               </div>
               <div className="col-lg-4 text-center order-1 order-lg-2">
                 <img
@@ -208,16 +172,11 @@ export default function Vedic(){
           <div className="tab-pane" id="tab-5">
             <div className="row">
               <div className="col-lg-8 details order-2 order-lg-1">
-                <h3>Est eveniet ipsam sindera pad rone matrelat sando reda</h3>
+                <h3>Have Fun with Math</h3>
                 <p className="fst-italic">
-                  Omnis blanditiis saepe eos autem qui sunt debitis porro quia.
+                Most importantly, remember to have fun with math! Vedic Maths is not just about solving problems – it's about exploring the beauty and elegance of mathematics and discovering the joy of learning. Experiment with different techniques, make mistakes, and celebrate your successes along the way. With Vedic Maths, every math problem is an opportunity for adventure and discovery!
                 </p>
-                <p>
-                  Exercitationem nostrum omnis. Ut reiciendis repudiandae minus.
-                  Omnis recusandae ut non quam ut quod eius qui. Ipsum quia odit
-                  vero atque qui quibusdam amet. Occaecati sed est sint aut
-                  vitae molestiae voluptate vel
-                </p>
+              
               </div>
               <div className="col-lg-4 text-center order-1 order-lg-2">
                 <img
@@ -233,6 +192,7 @@ export default function Vedic(){
     </div>
   </div>
 </section>
+<Languages/>
   <Footer/>
     
     </>

@@ -2,6 +2,10 @@ export default function Event_blog(){
     return<>
     <section id="events" className="events">
   <div className="container" data-aos="fade-up">
+  <div className="section-title">
+        <h2>Events</h2>
+        <p>Events</p>
+      </div>
     <div className="row">
       <div className="col-md-4 d-flex align-items-stretch">
         <div className="card">

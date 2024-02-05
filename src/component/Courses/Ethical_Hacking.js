@@ -1,16 +1,19 @@
+import { useEffect } from "react";
 import Footer from "../Footer/Footer";
 import Nav from "../Nav/Nav";
+import Languages from "../Home/Languages";
 
 export default function Ethical_Hacking(){
+  useEffect(() => {
+    window.scrollTo(0, 0)
+}, [])
     return<>
      <Nav/>
     <div className="breadcrumbs" data-aos="fade-in">
   <div className="container">
     <h2>Ethical Hacking</h2>
     <p>
-      Est dolorum ut non facere possimus quibusdam eligendi voluptatem. Quia id
-      aut similique quia voluptas sit quaerat debitis. Rerum omnis ipsam aperiam
-      consequatur laboriosam nemo harum praesentium.{" "}
+    Hey there, young cybersecurity enthusiast! Are you ready to embark on an exciting journey into the world of ethical hacking? Get ready to unleash your curiosity, sharpen your problem-solving skills, and become a cyberhero who protects the digital world from cyber threats.{" "}
     </p>
   </div>
     </div>
@@ -21,22 +24,13 @@ export default function Ethical_Hacking(){
       <div className="row">
         <div className="col-lg-8">
           <img
-            src="assets/img/course-details.jpg"
-            className="img-fluid"
+            src="assets/img/hacking.jpg"
+            className="img-fluid w-100 "
             alt=""
           />
-          <h3>Et enim incidunt fuga tempora</h3>
+          <h3>Become a Cyberhero with Ethical Hacking: Safeguarding the Digital World, One Code at a Time!</h3>
           <p>
-            Qui et explicabo voluptatem et ab qui vero et voluptas. Sint
-            voluptates temporibus quam autem. Atque nostrum voluptatum
-            laudantium a doloremque enim et ut dicta. Nostrum ducimus est iure
-            minima totam doloribus nisi ullam deserunt. Corporis aut officiis
-            sit nihil est. Labore aut sapiente aperiam. Qui voluptas qui vero
-            ipsum ea voluptatem. Omnis et est. Voluptatem officia voluptatem
-            adipisci et iusto provident doloremque consequatur. Quia et porro
-            est. Et qui corrupti laudantium ipsa. Eum quasi saepe aperiam qui
-            delectus quaerat in. Vitae mollitia ipsa quam. Ipsa aut qui numquam
-            eum iste est dolorum. Rem voluptas ut sit ut.
+          Ethical hacking, also known as penetration testing or pen testing, is legally breaking into computers and devices to test an organization’s defenses. It’s among the most exciting IT jobs any person can be involved in. You are literally getting paid to keep up with the latest technology and get to break into computers without the threat of being arrested. Companies engage ethical hackers to identify vulnerabilities in their systems. From the penetration tester’s point of view, there is no downside: If you hack in past the current defenses, you’ve given the client a chance to close the hole before an attacker discovers it. If you don’t find anything, your client is even happier because they now get to declare their systems “secure enough that even paid hackers couldn’t break into it.” Win-win! We here not only develop your skills by teaching it to you jhow it works but also with quality assurance we teach you the Hidden Techniques and Explore Better Ways
           </p>
         </div>
         <div className="col-lg-4">
@@ -74,27 +68,27 @@ export default function Ethical_Hacking(){
               data-bs-toggle="tab"
               href="#tab-1"
             >
-              Modi sit est
+             What is Ethical Hacking
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" data-bs-toggle="tab" href="#tab-2">
-              Unde praesentium sed
+            Learn the Tools of the Trade
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" data-bs-toggle="tab" href="#tab-3">
-              Pariatur explicabo vel
+            Play the Role of a White Hat Hacker
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" data-bs-toggle="tab" href="#tab-4">
-              Nostrum qui quasi
+            Practice Safe and Responsible Hacking
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" data-bs-toggle="tab" href="#tab-5">
-              Iusto ut expedita aut
+            Explore Exciting Career Opportunities
             </a>
           </li>
         </ul>
@@ -104,18 +98,11 @@ export default function Ethical_Hacking(){
           <div className="tab-pane active show" id="tab-1">
             <div className="row">
               <div className="col-lg-8 details order-2 order-lg-1">
-                <h3>Architecto ut aperiam autem id</h3>
+                <h3>What is Ethical Hacking?</h3>
                 <p className="fst-italic">
-                  Qui laudantium consequatur laborum sit qui ad sapiente dila
-                  parde sonata raqer a videna mareta paulona marka
+                Ethical hacking is like being a digital detective – it's about using your computer skills to find and fix security weaknesses before cybercriminals can exploit them. Just like a locksmith who tests the locks to make sure they're secure, ethical hackers use their knowledge of computer systems and networks to identify vulnerabilities and suggest ways to strengthen security defenses.
                 </p>
-                <p>
-                  Et nobis maiores eius. Voluptatibus ut enim blanditiis atque
-                  harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut
-                  molestiae aut qui. Est repellat minima eveniet eius et quis
-                  magni nihil. Consequatur dolorem quaerat quos qui similique
-                  accusamus nostrum rem vero
-                </p>
+              
               </div>
               <div className="col-lg-4 text-center order-1 order-lg-2">
                 <img
@@ -129,18 +116,11 @@ export default function Ethical_Hacking(){
           <div className="tab-pane" id="tab-2">
             <div className="row">
               <div className="col-lg-8 details order-2 order-lg-1">
-                <h3>Et blanditiis nemo veritatis excepturi</h3>
+                <h3>Learn the Tools of the Trade</h3>
                 <p className="fst-italic">
-                  Qui laudantium consequatur laborum sit qui ad sapiente dila
-                  parde sonata raqer a videna mareta paulona marka
+                Ethical hacking requires a good understanding of computer systems, networks, and programming languages. Learn about operating systems like Windows and Linux, networking concepts like IP addresses and routers, and programming languages like Python and JavaScript. These skills will help you understand how computers and networks work and how cybercriminals exploit vulnerabilities to gain unauthorized access.
                 </p>
-                <p>
-                  Ea ipsum voluptatem consequatur quis est. Illum error ullam
-                  omnis quia et reiciendis sunt sunt est. Non aliquid
-                  repellendus itaque accusamus eius et velit ipsa voluptates.
-                  Optio nesciunt eaque beatae accusamus lerode pakto madirna
-                  desera vafle de nideran pal
-                </p>
+              
               </div>
               <div className="col-lg-4 text-center order-1 order-lg-2">
                 <img
@@ -154,19 +134,11 @@ export default function Ethical_Hacking(){
           <div className="tab-pane" id="tab-3">
             <div className="row">
               <div className="col-lg-8 details order-2 order-lg-1">
-                <h3>Impedit facilis occaecati odio neque aperiam sit</h3>
+                <h3>Play the Role of a White Hat Hacker</h3>
                 <p className="fst-italic">
-                  Eos voluptatibus quo. Odio similique illum id quidem non enim
-                  fuga. Qui natus non sunt dicta dolor et. In asperiores velit
-                  quaerat perferendis aut
+                In the world of ethical hacking, there are three types of hackers: white hat hackers, black hat hackers, and grey hat hackers. White hat hackers, also known as ethical hackers, use their skills to help organizations improve their security defenses and protect against cyber attacks. By playing the role of a white hat hacker, you'll learn how to think like a cybercriminal and anticipate potential threats before they happen.
                 </p>
-                <p>
-                  Iure officiis odit rerum. Harum sequi eum illum corrupti culpa
-                  veritatis quisquam. Neque necessitatibus illo rerum eum ut.
-                  Commodi ipsam minima molestiae sed laboriosam a iste odio.
-                  Earum odit nesciunt fugiat sit ullam. Soluta et harum
-                  voluptatem optio quae
-                </p>
+           
               </div>
               <div className="col-lg-4 text-center order-1 order-lg-2">
                 <img
@@ -181,20 +153,12 @@ export default function Ethical_Hacking(){
             <div className="row">
               <div className="col-lg-8 details order-2 order-lg-1">
                 <h3>
-                  Fuga dolores inventore laboriosam ut est accusamus laboriosam
-                  dolore
+                Practice Safe and Responsible Hacking
                 </h3>
                 <p className="fst-italic">
-                  Totam aperiam accusamus. Repellat consequuntur iure voluptas
-                  iure porro quis delectus
+                Ethical hacking is all about following rules and ethical guidelines to ensure that you're using your skills for good. Always get permission before testing or hacking into computer systems or networks, and never engage in any activities that could cause harm or disrupt services. Remember, ethical hackers are the good guys – so always act responsibly and with integrity.
                 </p>
-                <p>
-                  Eaque consequuntur consequuntur libero expedita in voluptas.
-                  Nostrum ipsam necessitatibus aliquam fugiat debitis quis
-                  velit. Eum ex maxime error in consequatur corporis atque.
-                  Eligendi asperiores sed qui veritatis aperiam quia a laborum
-                  inventore
-                </p>
+              
               </div>
               <div className="col-lg-4 text-center order-1 order-lg-2">
                 <img
@@ -208,16 +172,11 @@ export default function Ethical_Hacking(){
           <div className="tab-pane" id="tab-5">
             <div className="row">
               <div className="col-lg-8 details order-2 order-lg-1">
-                <h3>Est eveniet ipsam sindera pad rone matrelat sando reda</h3>
+                <h3>Explore Exciting Career Opportunities</h3>
                 <p className="fst-italic">
-                  Omnis blanditiis saepe eos autem qui sunt debitis porro quia.
+                Did you know that ethical hacking is one of the fastest-growing fields in cybersecurity? From cybersecurity analysts and penetration testers to security consultants and ethical hacking trainers, there are countless career opportunities waiting for ethical hackers like you. Whether you dream of working for a tech company, a government agency, or a cybersecurity firm, ethical hacking skills are in high demand and can open doors to a world of exciting possibilities.
                 </p>
-                <p>
-                  Exercitationem nostrum omnis. Ut reiciendis repudiandae minus.
-                  Omnis recusandae ut non quam ut quod eius qui. Ipsum quia odit
-                  vero atque qui quibusdam amet. Occaecati sed est sint aut
-                  vitae molestiae voluptate vel
-                </p>
+              
               </div>
               <div className="col-lg-4 text-center order-1 order-lg-2">
                 <img
@@ -233,6 +192,7 @@ export default function Ethical_Hacking(){
     </div>
   </div>
 </section>
+<Languages/>
   <Footer/>
     
     

@@ -1,7 +1,11 @@
+import { useEffect } from "react";
 import Footer from "../Footer/Footer";
 import Nav from "../Nav/Nav";
 
 export default function Pricing(){
+  useEffect(() => {
+    window.scrollTo(0, 0)
+}, [])
     return<>
     <Nav/>
 

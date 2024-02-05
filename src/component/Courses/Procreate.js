@@ -1,7 +1,12 @@
+import { useEffect } from "react";
 import Footer from "../Footer/Footer";
 import Nav from "../Nav/Nav";
+import Languages from "../Home/Languages";
 
 export default function Procreate(){
+  useEffect(() => {
+    window.scrollTo(0, 0)
+}, [])
     return<>
     
     <Nav/>
@@ -9,9 +14,7 @@ export default function Procreate(){
   <div className="container">
     <h2>Procreate</h2>
     <p>
-      Est dolorum ut non facere possimus quibusdam eligendi voluptatem. Quia id
-      aut similique quia voluptas sit quaerat debitis. Rerum omnis ipsam aperiam
-      consequatur laboriosam nemo harum praesentium.{" "}
+    Get ready to dive into the magical world of Procreate – a powerful digital art app that puts the tools of professional artists right at your fingertips. Whether you love drawing, painting, or creating animations, Procreate has everything you need to bring your imagination to life in stunning detail.{" "}
     </p>
   </div>
     </div>
@@ -22,22 +25,13 @@ export default function Procreate(){
       <div className="row">
         <div className="col-lg-8">
           <img
-            src="assets/img/course-details.jpg"
+            src="assets/img/Procreate.jpg"
             className="img-fluid"
             alt=""
           />
-          <h3>Et enim incidunt fuga tempora</h3>
+          <h3>Let Your Creativity Soar with Procreate: The Ultimate Digital Art Playground!</h3>
           <p>
-            Qui et explicabo voluptatem et ab qui vero et voluptas. Sint
-            voluptates temporibus quam autem. Atque nostrum voluptatum
-            laudantium a doloremque enim et ut dicta. Nostrum ducimus est iure
-            minima totam doloribus nisi ullam deserunt. Corporis aut officiis
-            sit nihil est. Labore aut sapiente aperiam. Qui voluptas qui vero
-            ipsum ea voluptatem. Omnis et est. Voluptatem officia voluptatem
-            adipisci et iusto provident doloremque consequatur. Quia et porro
-            est. Et qui corrupti laudantium ipsa. Eum quasi saepe aperiam qui
-            delectus quaerat in. Vitae mollitia ipsa quam. Ipsa aut qui numquam
-            eum iste est dolorum. Rem voluptas ut sit ut.
+          Hey there, young artist! Are you ready to take your artwork to the next level and unleash your creativity like never before? Get ready to dive into the magical world of Procreate – a powerful digital art app that puts the tools of professional artists right at your fingertips. Whether you love drawing, painting, or creating animations, Procreate has everything you need to bring your imagination to life in stunning detail. So, grab your stylus and tablet, and let's embark on an epic artistic adventure with Procreate!
           </p>
         </div>
         <div className="col-lg-4">
@@ -75,27 +69,27 @@ export default function Procreate(){
               data-bs-toggle="tab"
               href="#tab-1"
             >
-              Modi sit est
+              What is Procreate?
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" data-bs-toggle="tab" href="#tab-2">
-              Unde praesentium sed
+            Explore a World of Brushes
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" data-bs-toggle="tab" href="#tab-3">
-              Pariatur explicabo vel
+            Master the Art of Layers
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" data-bs-toggle="tab" href="#tab-4">
-              Nostrum qui quasi
+            Bring Your Art to Life with Animation
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" data-bs-toggle="tab" href="#tab-5">
-              Iusto ut expedita aut
+            Learn and Grow as an Artist
             </a>
           </li>
         </ul>
@@ -105,18 +99,11 @@ export default function Procreate(){
           <div className="tab-pane active show" id="tab-1">
             <div className="row">
               <div className="col-lg-8 details order-2 order-lg-1">
-                <h3>Architecto ut aperiam autem id</h3>
+                <h3>What is Procreate?</h3>
                 <p className="fst-italic">
-                  Qui laudantium consequatur laborum sit qui ad sapiente dila
-                  parde sonata raqer a videna mareta paulona marka
+                Procreate is a digital art app designed for artists of all ages and skill levels. Whether you're a beginner doodler or a seasoned illustrator, Procreate offers a wide range of tools and features to help you create beautiful artwork with ease. From realistic brushes and customizable brushes to advanced layering and animation tools, Procreate is like having a complete art studio in the palm of your hand.
                 </p>
-                <p>
-                  Et nobis maiores eius. Voluptatibus ut enim blanditiis atque
-                  harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut
-                  molestiae aut qui. Est repellat minima eveniet eius et quis
-                  magni nihil. Consequatur dolorem quaerat quos qui similique
-                  accusamus nostrum rem vero
-                </p>
+             
               </div>
               <div className="col-lg-4 text-center order-1 order-lg-2">
                 <img
@@ -130,18 +117,11 @@ export default function Procreate(){
           <div className="tab-pane" id="tab-2">
             <div className="row">
               <div className="col-lg-8 details order-2 order-lg-1">
-                <h3>Et blanditiis nemo veritatis excepturi</h3>
+                <h3>Explore a World of Brushes</h3>
                 <p className="fst-italic">
-                  Qui laudantium consequatur laborum sit qui ad sapiente dila
-                  parde sonata raqer a videna mareta paulona marka
+                With Procreate, you can explore a vast library of brushes that mimic traditional art tools like pencils, pens, paints, and more. Experiment with different brushes, textures, and effects to create unique and expressive artwork that reflects your style and personality. Whether you're sketching characters, painting landscapes, or adding the finishing touches to your masterpiece, Procreate's brushes are sure to inspire your creativity.
                 </p>
-                <p>
-                  Ea ipsum voluptatem consequatur quis est. Illum error ullam
-                  omnis quia et reiciendis sunt sunt est. Non aliquid
-                  repellendus itaque accusamus eius et velit ipsa voluptates.
-                  Optio nesciunt eaque beatae accusamus lerode pakto madirna
-                  desera vafle de nideran pal
-                </p>
+           
               </div>
               <div className="col-lg-4 text-center order-1 order-lg-2">
                 <img
@@ -155,19 +135,11 @@ export default function Procreate(){
           <div className="tab-pane" id="tab-3">
             <div className="row">
               <div className="col-lg-8 details order-2 order-lg-1">
-                <h3>Impedit facilis occaecati odio neque aperiam sit</h3>
+                <h3>Master the Art of Layers</h3>
                 <p className="fst-italic">
-                  Eos voluptatibus quo. Odio similique illum id quidem non enim
-                  fuga. Qui natus non sunt dicta dolor et. In asperiores velit
-                  quaerat perferendis aut
+                Layers are like transparent sheets of paper that you can stack on top of each other to create complex artwork. With Procreate's advanced layering system, you can easily organize your artwork, make changes without affecting the rest of your drawing, and add depth and dimension to your creations. Whether you're adding details, adjusting colors, or creating special effects, layers give you the freedom to experiment and express yourself like never before.
                 </p>
-                <p>
-                  Iure officiis odit rerum. Harum sequi eum illum corrupti culpa
-                  veritatis quisquam. Neque necessitatibus illo rerum eum ut.
-                  Commodi ipsam minima molestiae sed laboriosam a iste odio.
-                  Earum odit nesciunt fugiat sit ullam. Soluta et harum
-                  voluptatem optio quae
-                </p>
+             
               </div>
               <div className="col-lg-4 text-center order-1 order-lg-2">
                 <img
@@ -182,20 +154,12 @@ export default function Procreate(){
             <div className="row">
               <div className="col-lg-8 details order-2 order-lg-1">
                 <h3>
-                  Fuga dolores inventore laboriosam ut est accusamus laboriosam
-                  dolore
+                Bring Your Art to Life with Animation
                 </h3>
                 <p className="fst-italic">
-                  Totam aperiam accusamus. Repellat consequuntur iure voluptas
-                  iure porro quis delectus
+                Want to make your artwork move and come alive? With Procreate's animation tools, you can create stunning animations and motion graphics with ease. Whether you're animating characters, adding special effects, or creating frame-by-frame animations, Procreate's intuitive animation timeline makes it easy to bring your ideas to life and tell captivating stories through animation.
                 </p>
-                <p>
-                  Eaque consequuntur consequuntur libero expedita in voluptas.
-                  Nostrum ipsam necessitatibus aliquam fugiat debitis quis
-                  velit. Eum ex maxime error in consequatur corporis atque.
-                  Eligendi asperiores sed qui veritatis aperiam quia a laborum
-                  inventore
-                </p>
+               
               </div>
               <div className="col-lg-4 text-center order-1 order-lg-2">
                 <img
@@ -209,16 +173,11 @@ export default function Procreate(){
           <div className="tab-pane" id="tab-5">
             <div className="row">
               <div className="col-lg-8 details order-2 order-lg-1">
-                <h3>Est eveniet ipsam sindera pad rone matrelat sando reda</h3>
+                <h3>Learn and Grow as an Artist</h3>
                 <p className="fst-italic">
-                  Omnis blanditiis saepe eos autem qui sunt debitis porro quia.
+                With Procreate, the only limit to what you can create is your imagination. Whether you're drawing, painting, animating, or experimenting with new techniques, Procreate offers endless opportunities for learning and growth as an artist. Take advantage of Procreate's tutorials, community forums, and online resources to expand your skills, connect with other artists, and take your artwork to new heights.
                 </p>
-                <p>
-                  Exercitationem nostrum omnis. Ut reiciendis repudiandae minus.
-                  Omnis recusandae ut non quam ut quod eius qui. Ipsum quia odit
-                  vero atque qui quibusdam amet. Occaecati sed est sint aut
-                  vitae molestiae voluptate vel
-                </p>
+              
               </div>
               <div className="col-lg-4 text-center order-1 order-lg-2">
                 <img
@@ -234,6 +193,7 @@ export default function Procreate(){
     </div>
   </div>
 </section>
+<Languages/>
   <Footer/>
     </>
 }

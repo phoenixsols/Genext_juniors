@@ -1,7 +1,12 @@
+import { useEffect } from "react";
 import Footer from "../Footer/Footer";
 import Nav from "../Nav/Nav";
+import Languages from "../Home/Languages";
 
 export default function Game(){
+  useEffect(() => {
+    window.scrollTo(0, 0)
+}, [])
  return<>
   <Nav/>
     <div className="breadcrumbs" data-aos="fade-in">
@@ -97,13 +102,7 @@ export default function Game(){
                 <p className="fst-italic">
                 At Genext the heart of every great game is a solid foundation of code. Learning to code may seem daunting at first, but with practice and perseverance, you'll soon become a coding ninja! Start by learning the basics of programming languages like Python, C#, or JavaScript – these languages are widely used in the game development industry and will serve as valuable skills throughout your career. As you become more proficient, you can experiment with more advanced concepts like artificial intelligence, physics simulations, and procedural generation to take your games to the next level.
                 </p>
-                {/* <p>
-                  Et nobis maiores eius. Voluptatibus ut enim blanditiis atque
-                  harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut
-                  molestiae aut qui. Est repellat minima eveniet eius et quis
-                  magni nihil. Consequatur dolorem quaerat quos qui similique
-                  accusamus nostrum rem vero
-                </p> */}
+               
               </div>
               <div className="col-lg-4 text-center order-1 order-lg-2">
                 <img
@@ -121,13 +120,7 @@ export default function Game(){
                 <p className="fst-italic">
                 Game development is an iterative process – it's all about designing, creating, and refining your game until it's just right. Start by sketching out your ideas on paper, creating prototypes to test your gameplay mechanics, and gathering feedback from friends, family, and fellow developers. Don't be afraid to make mistakes or scrap ideas that aren't working – every setback is an opportunity to learn and grow as a game developer.
                 </p>
-                {/* <p>
-                  Ea ipsum voluptatem consequatur quis est. Illum error ullam
-                  omnis quia et reiciendis sunt sunt est. Non aliquid
-                  repellendus itaque accusamus eius et velit ipsa voluptates.
-                  Optio nesciunt eaque beatae accusamus lerode pakto madirna
-                  desera vafle de nideran pal
-                </p> */}
+               
               </div>
               <div className="col-lg-4 text-center order-1 order-lg-2">
                 <img
@@ -145,13 +138,7 @@ export default function Game(){
                 <p className="fst-italic">
                 Game development is a collaborative effort – it's rare for a single person to create a game entirely on their own. That's why it's essential to collaborate with others, whether it's working with artists to create stunning visuals, musicians to compose epic soundtracks, or fellow developers to brainstorm ideas and solve problems together. Networking with other developers and participating in game jams, conferences, and online forums is also a great way to learn from others, share your work, and build connections within the industry.
                 </p>
-                {/* <p>
-                  Iure officiis odit rerum. Harum sequi eum illum corrupti culpa
-                  veritatis quisquam. Neque necessitatibus illo rerum eum ut.
-                  Commodi ipsam minima molestiae sed laboriosam a iste odio.
-                  Earum odit nesciunt fugiat sit ullam. Soluta et harum
-                  voluptatem optio quae
-                </p> */}
+                
               </div>
               <div className="col-lg-4 text-center order-1 order-lg-2">
                 <img
@@ -171,13 +158,7 @@ export default function Game(){
                 <p className="fst-italic">
                 Congratulations, you've done it – your game is finally ready for the world to see! Whether you're publishing your game on a digital storefront like Steam or the App Store, sharing it on a web platform like itch.io, or distributing it through your own website, releasing your game is an exciting milestone in your game development journey. Be sure to promote your game through social media, press releases, and community forums to reach as many players as possible and share your creation with the world!
                 </p>
-                {/* <p>
-                  Eaque consequuntur consequuntur libero expedita in voluptas.
-                  Nostrum ipsam necessitatibus aliquam fugiat debitis quis
-                  velit. Eum ex maxime error in consequatur corporis atque.
-                  Eligendi asperiores sed qui veritatis aperiam quia a laborum
-                  inventore
-                </p> */}
+              
               </div>
               <div className="col-lg-4 text-center order-1 order-lg-2">
                 <img
@@ -195,12 +176,7 @@ export default function Game(){
                 <p className="fst-italic">
                 Once your game is up and running, it's time to put it to the test! Gather a group of playtesters to try out your game and provide feedback on everything from gameplay mechanics and level design to graphics and user interface. Use this feedback to identify areas for improvement and make necessary adjustments to polish your game until it shines. Remember, even the best games go through multiple iterations before they're ready for release – so don't be afraid to iterate, iterate, iterate!
                 </p>
-                {/* <p>
-                  Exercitationem nostrum omnis. Ut reiciendis repudiandae minus.
-                  Omnis recusandae ut non quam ut quod eius qui. Ipsum quia odit
-                  vero atque qui quibusdam amet. Occaecati sed est sint aut
-                  vitae molestiae voluptate vel
-                </p> */}
+               
               </div>
               <div className="col-lg-4 text-center order-1 order-lg-2">
                 <img
@@ -216,6 +192,7 @@ export default function Game(){
     </div>
   </div>
 </section>
+<Languages/>
   <Footer/>
  
  </>

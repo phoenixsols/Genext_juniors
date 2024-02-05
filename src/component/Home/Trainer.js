@@ -4,21 +4,25 @@ export default function Trainer(){
   {/* ======= Trainers Section ======= */}
   <section id="trainers" className="trainers">
     <div className="container" data-aos="fade-up">
+    <div className="section-title">
+        <h2>Team</h2>
+        <p>Our Trainers</p>
+      </div>
       <div className="row" data-aos="zoom-in" data-aos-delay={100}>
         <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
           <div className="member">
             <img
-              src="assets/img/trainers/trainer-1.jpg"
-              className="img-fluid"
+              src="assets/img/Devendrasir.jpg"
+              className="img-fluid team_img"
               alt=""
             />
             <div className="member-content">
-              <h4>Walter White</h4>
-              <span>Web Development</span>
-              <p>
+              <h4>DEVENDRA RATHORE</h4>
+              <span>Founder / Director</span>
+              {/* <p>
                 Magni qui quod omnis unde et eos fuga et exercitationem. Odio
                 veritatis perspiciatis quaerat qui aut aut aut
-              </p>
+              </p> */}
               <div className="social">
                 <a href="">
                   <i className="bi bi-twitter" />
@@ -36,20 +40,20 @@ export default function Trainer(){
             </div>
           </div>
         </div>
-        <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
-          <div className="member">
+        <div className="col-lg-4 col-md-6 d-flex  align-items-stretch">
+          <div className="member ">
             <img
-              src="assets/img/trainers/trainer-2.jpg"
-              className="img-fluid"
+              src="assets/img/nitinsir.jpg"
+              className="img-fluid team_img"
               alt=""
             />
             <div className="member-content">
-              <h4>Sarah Jhinson</h4>
-              <span>Marketing</span>
-              <p>
+              <h4>NITIN KUKREJA</h4>
+              <span>Senior Trainer</span>
+              {/* <p>
                 Repellat fugiat adipisci nemo illum nesciunt voluptas
                 repellendus. In architecto rerum rerum temporibus
-              </p>
+              </p> */}
               <div className="social">
                 <a href="">
                   <i className="bi bi-twitter" />
@@ -70,17 +74,14 @@ export default function Trainer(){
         <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
           <div className="member">
             <img
-              src="assets/img/trainers/trainer-3.jpg"
-              className="img-fluid"
+              src="assets/img/Shailendrasir.jpg"
+              className="img-fluid team_img"
               alt=""
             />
             <div className="member-content">
-              <h4>William Anderson</h4>
-              <span>Content</span>
-              <p>
-                Voluptas necessitatibus occaecati quia. Earum totam consequuntur
-                qui porro et laborum toro des clara
-              </p>
+              <h4>Shailendra Gupta</h4>
+              <span>Senior Developer</span>
+             
               <div className="social">
                 <a href="">
                   <i className="bi bi-twitter" />

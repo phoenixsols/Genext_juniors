@@ -1,8 +1,12 @@
+import { useEffect } from "react";
 import Footer from "../Footer/Footer";
 import Nav from "../Nav/Nav";
 import Event_blog from "./Event_blog";
 
 export default function Events(){
+  useEffect(() => {
+    window.scrollTo(0, 0)
+}, [])
     return<>
    
    
