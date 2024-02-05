@@ -15,9 +15,7 @@ return<>
   <div className="container">
     <h2>Courses</h2>
     <p>
-      Est dolorum ut non facere possimus quibusdam eligendi voluptatem. Quia id
-      aut similique quia voluptas sit quaerat debitis. Rerum omnis ipsam aperiam
-      consequatur laboriosam nemo harum praesentium.{" "}
+    “The more that you read, the more things you will know."{" "}
     </p>
   </div>
 </div>

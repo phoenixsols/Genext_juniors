@@ -7,6 +7,7 @@ import Corosale from "./Corosale";
 import Gallery from "./Gallery";
 import Languages from "./Languages";
 import Message from "./Message";
+import Popular from "./Popular";
 import Popular_courses from "./Popular_courses";
 import Trainer from "./Trainer";
 
@@ -21,7 +22,7 @@ export default function Home(){
     <Corosale/>
     <Message/>
     <Languages/>
-    <Popular_courses/>
+    <Popular/>
     <Trainer/>
     <Event_blog/>
     <Gallery/>
