@@ -17,7 +17,7 @@ export default function Event_blog(){
             </p>
             <p className="card-text">
             Celebrated in various regions of India, Makar Sankranti marks the
-             new beginning when the Sun transitions into longer days.
+             new beginning when the Sun transitions into longer days.Though it is a seasonal festival, more specifically, a harvest festival, people worship God Dharma thereby elevating it to a religious level as well.
             </p>
           </div>
         </div>
@@ -36,10 +36,7 @@ export default function Event_blog(){
             Sunday, January 26
             </p>
             <p className="card-text">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
-              inventore veritatis et quasi architecto beatae vitae dicta sunt
-              explicabo
+            It marks the day when India became truly independent and embraced democracy. In other words, it celebrates the day on which our constitution came into effect. On 26 January 1950, almost 3 years post-independence, we became a sovereign, secular, socialist, democratic republic.
             </p>
           </div>
         </div>
@@ -57,10 +54,7 @@ export default function Event_blog(){
               Sunday, February 10
             </p>
             <p className="card-text">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
-              inventore veritatis et quasi architecto beatae vitae dicta sunt
-              explicabo
+            picnic provides a great opportunity for students to cherish wonderful experience and face a range of challenges that can contribute significantly to their personal development. Hence, it is important that students must participate in the picnicsas it provides a holistic education.
             </p>
           </div>
         </div>

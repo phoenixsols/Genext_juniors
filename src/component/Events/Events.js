@@ -12,9 +12,7 @@ export default function Events(){
   <div className="container">
     <h2>Events</h2>
     <p>
-      Est dolorum ut non facere possimus quibusdam eligendi voluptatem. Quia id
-      aut similique quia voluptas sit quaerat debitis. Rerum omnis ipsam aperiam
-      consequatur laboriosam nemo harum praesentium.{" "}
+    The more you praise and celebrate your life, the more there is in life to celebrate.{" "}
     </p>
   </div>
 </div>
@@ -56,10 +54,12 @@ export default function Events(){
             Friday, October 12
             </p>
             <p className="card-text">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
-              inventore veritatis et quasi architecto beatae vitae dicta sunt
-              explicabo
+            Navratri is a festival in which people joyously
+             worship Goddess Durga. Indians celebrate this festival
+              with a lot of joy and enthusiasm. Further, the meaning
+               of 'Nav' is nine and 'Ratri' refers to night. Thus,
+                the festival derives its name as we celebrate it over
+                 a period of nine nights.
             </p>
           </div>
         </div>
@@ -77,10 +77,11 @@ export default function Events(){
               Thursday, September 5
             </p>
             <p className="card-text">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
-              inventore veritatis et quasi architecto beatae vitae dicta sunt
-              explicabo
+            Teachers' Day is a global celebration, observed in India on
+             September 05 to honor Dr. Sarvapalli Radhakrishnan. Teachers
+              play a vital role in shaping our future, recognizing and
+               fostering our potential. They impart knowledge and life
+                lessons, extending their impact beyond the classroom.
             </p>
           </div>
         </div>

@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom";
-import Popular from "./Popular";
 
-export default function Popular_courses(){
+export default function Popular(){
     return<>
-    <>
-    <Popular/>
-  {/* ======= Popular Courses Section ======= */}
-  <section id="popular-courses" className="courses">
+     <section id="popular-courses" className="courses">
     <div className="container" data-aos="fade-up">
+      <div className="section-title">
+        <h2>Courses</h2>
+        <p>Popular Courses</p>
+      </div>
       <div className="row" data-aos="zoom-in" data-aos-delay={100}>
         <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
           <div className="course-item">
@@ -18,20 +18,16 @@ export default function Popular_courses(){
             />
             <div className="course-content">
               <div className="d-flex justify-content-between align-items-center mb-3">
-                <h4>Development</h4>
+                <h4>Web Development</h4>
                 <p className="price">$169</p>
               </div>
               <h3>
-                <Link to={'/game'}>Game Development</Link>
+                <Link to={'/web'}>Web Designing</Link>
               </h3>
               <p>
-              Game design in education is typically associated with the higher grade-level.
-               Usually somewhere in high school and college is where individuals learn the
-                tricks and trade of game design. However, this does not mean that game design
-                 is limited to teenagers and adults. kids are beginning to get in on the craft
-                  of game design as well.
+              Web design involves creating the visual elements and layout of a website, while coding involves translating these designs into a functional website using programming languages like HTML, CSS, and JavaScript. Typically, dedicated web developers translate the designs to code.
               </p>
-             
+              
             </div>
           </div>
         </div>{" "}
@@ -45,19 +41,17 @@ export default function Popular_courses(){
             />
             <div className="course-content">
               <div className="d-flex justify-content-between align-items-center mb-3">
-                <h4>Artificial intelligence</h4>
+                <h4>Scratch tool</h4>
                 <p className="price">$250</p>
               </div>
               <h3>
-                <Link to={'/robotics'}>AI & Robotics</Link>
+                <Link to={'/scratch'}>Scratch</Link>
               </h3>
               <p>
-              Artificial intelligence (AI) is intelligence demonstrated by machines,
-               unlike the natural intelligence displayed by humans and animals, 
-               which involves consciousness and emotionality.Colloquially, 
-               the term “artificial intelligence” is often used to describe machines
-                (or computers) that mimic “cognitive” functions that humans associate
-                 with the human mind, such as “learning” and “problem solving”.
+              Scratch is a high-level block-based visual programming language
+               and website aimed primarily at children as an educational tool,
+                with a target audience of ages 8 to 16.[7] Users on the site can
+                 create projects on the website using a block-like interface.
               </p>
              
             </div>
@@ -73,19 +67,17 @@ export default function Popular_courses(){
             />
             <div className="course-content">
               <div className="d-flex justify-content-between align-items-center mb-3">
-                <h4>Designing</h4>
+                <h4>Ethical Hacking</h4>
                 <p className="price">$180</p>
               </div>
               <h3>
-                <Link to={'/graphic'}>Graphic Designing</Link>
+                <Link to={'/ethical_hacking'}>Ethical Hacking</Link>
               </h3>
               <p>
-              Hey there, young artist! Are you ready to explore the exciting
-               world of graphic design? Get ready to unleash your creativity,
-                experiment with colors and shapes, and bring your ideas to life
-                 in stunning detail. Whether you dream of designing posters,
-                  creating logos, or illustrating your own comics, graphic design
-                   is your ticket to endless possibilities.
+              An ethical hacker is responsible for identifying weaknesses in systems,
+               networks and technology assets. They report these weaknesses to their
+                organization and give advice on how to make security patches and 
+                strengthen their defenses.
               </p>
              
             </div>
@@ -95,10 +87,5 @@ export default function Popular_courses(){
       </div>
     </div>
   </section>
-  {/* End Popular Courses Section */}
-</>
-
-    
-    
     </>
 }

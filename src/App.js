@@ -44,6 +44,7 @@ function App() {
    <Route path='/info' element={<Info/>}></Route>
    <Route path='/procreate' element={<Procreate/>}></Route>
    <Route path='/vedic' element={<Vedic/>}></Route>
+   
 
 
 
