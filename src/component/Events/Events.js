@@ -138,7 +138,7 @@ export default function Events(){
       <div className="col-md-4 d-flex align-items-stretch">
         <div className="card">
           <div className="card-img" style={{height:"250px"}}>
-            <img src="assets/img/Teachers_day2.jpeg" alt="..."  />
+            <img src="assets/img/seminar1.jpeg" alt="..."  />
           </div>
           <div className="card-body">
             <h5 className="card-title">
