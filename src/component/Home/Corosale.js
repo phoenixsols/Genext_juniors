@@ -16,7 +16,7 @@ export default function Corosale(){
  
       </h1>
       <h2>We provide best platform to Enhance yout child skills</h2>
-      <Link to={'/'} className="btn-get-started">
+      <Link to={'/about'} className="btn-get-started">
         Know More
       </Link>
     </div>

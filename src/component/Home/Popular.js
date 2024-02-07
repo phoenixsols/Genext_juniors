@@ -12,8 +12,8 @@ export default function Popular(){
         <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
           <div className="course-item">
             <img
-              src="assets/img/course-1.jpg"
-              className="img-fluid"
+              src="assets/img/webdesign.jpg"
+              className="img-fluid scratch"
               alt="..."
             />
             <div className="course-content">
@@ -35,8 +35,8 @@ export default function Popular(){
         <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
           <div className="course-item">
             <img
-              src="assets/img/course-2.jpg"
-              className="img-fluid"
+              src="assets/img/scratch1.png "
+              className="img-fluid h-50 scratch" 
               alt="..."
             />
             <div className="course-content">
@@ -50,7 +50,7 @@ export default function Popular(){
               <p>
               Scratch is a high-level block-based visual programming language
                and website aimed primarily at children as an educational tool,
-                with a target audience of ages 8 to 16.[7] Users on the site can
+                with a target audience of ages 8 to 16. Users on the site can
                  create projects on the website using a block-like interface.
               </p>
              
@@ -61,8 +61,8 @@ export default function Popular(){
         <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
           <div className="course-item">
             <img
-              src="assets/img/course-3.jpg"
-              className="img-fluid"
+              src="assets/img/hacking.jpg"
+              className="img-fluid scratch"
               alt="..."
             />
             <div className="course-content">

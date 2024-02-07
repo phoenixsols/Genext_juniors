@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Popular from "./Popular";
+import Languages from "./Languages";
 
 export default function Popular_courses(){
     return<>
@@ -12,8 +13,8 @@ export default function Popular_courses(){
         <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
           <div className="course-item">
             <img
-              src="assets/img/course-1.jpg"
-              className="img-fluid"
+              src="assets/img/gamedevelopment.jpg"
+              className="img-fluid scratch"
               alt="..."
             />
             <div className="course-content">
@@ -39,8 +40,8 @@ export default function Popular_courses(){
         <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
           <div className="course-item">
             <img
-              src="assets/img/course-2.jpg"
-              className="img-fluid"
+              src="assets/img/AI.jpg"
+              className="img-fluid scratch"
               alt="..."
             />
             <div className="course-content">
@@ -67,8 +68,8 @@ export default function Popular_courses(){
         <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
           <div className="course-item">
             <img
-              src="assets/img/course-3.jpg"
-              className="img-fluid"
+              src="assets/img/graphic.jpg"
+              className="img-fluid scratch"
               alt="..."
             />
             <div className="course-content">
@@ -95,6 +96,8 @@ export default function Popular_courses(){
       </div>
     </div>
   </section>
+
+  <Languages/>
   {/* End Popular Courses Section */}
 </>
 

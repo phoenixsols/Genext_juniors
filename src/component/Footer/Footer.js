@@ -40,7 +40,7 @@ Sudama Nagar, Indore, <br /> Madhya Pradesh 452009
               </li>
               <li>
                 <i className="bx bx-chevron-right" />{" "}
-                <Link to={'/event'}>Events</Link>
+                <Link to={'/events'}>Events</Link>
               </li>
               <li>
                 <i className="bx bx-chevron-right" />{" "}

@@ -79,7 +79,7 @@ export default function Trainer(){
               alt=""
             />
             <div className="member-content">
-              <h4>Shailendra Gupta</h4>
+              <h4>SHAILENDRA GUPTA</h4>
               <span>Senior Developer</span>
              
               <div className="social">

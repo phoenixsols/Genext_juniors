@@ -34,11 +34,11 @@ export default function Nav() {
       Events
     </Link>
   </li>
-  <li onClick={()=>{setShow(false)}}>
+  {/* <li onClick={()=>{setShow(false)}}>
       <Link to="/pricing" className="nav-link scrollto ">
       Pricing
     </Link>
-  </li>
+  </li> */}
   <li onClick={()=>{setShow(false)}}>
       <Link to="/contact" className="nav-link scrollto ">
       Contact
@@ -47,7 +47,7 @@ export default function Nav() {
 
 
   <li className="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center navbtn" onClick={()=>{setShow(false)}}>
-    <Link to="/services" className='text-light'>Get Started</Link>
+    <Link to="/courses" className='text-light'>Get Started</Link>
   </li> 
     </ul>
     </>)
